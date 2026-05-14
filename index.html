@@ -96,6 +96,21 @@
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
+    .brand .credit {
+      font-size: 10.5px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+    .brand .credit a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-dim);
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .brand .credit a:hover {
+      color: var(--text);
+      border-bottom-color: var(--text-muted);
+    }
 
     .controls {
       display: flex;
@@ -636,6 +651,7 @@
     <div class="brand">
       <h1>Grey Sloan<span class="accent">·</span>The Web</h1>
       <div class="tag">A Grey's Anatomy relationship map · 2005 → today</div>
+      <div class="credit">Inspired by <a href="https://share.contiguous.me/share/building-a-dossier/" target="_blank" rel="noopener">share.contiguous.me/share/building-a-dossier</a></div>
     </div>
     <div class="controls">
       <div class="filter-group" id="era-filter">
