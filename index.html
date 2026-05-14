@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grey Sloan: The Web — A Grey's Anatomy Relationship Map</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js"></script>
+  <script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
+  <script src="https://unpkg.com/cose-base@2.2.0/cose-base.js"></script>
+  <script src="https://unpkg.com/cytoscape-cose-bilkent@4.1.0/cytoscape-cose-bilkent.js"></script>
+
+  <style>
+    :root {
+      --bg: #0f1419;
+      --bg-elev: #161c24;
+      --surface: #1a2129;
+      --surface-2: #232c36;
+      --border: #2a3340;
+      --border-strong: #3a4452;
+      --text: #e8edf2;
+      --text-muted: #8a96a3;
+      --text-dim: #5a6573;
+      --accent: #ff5a5f;
+      --accent-soft: rgba(255, 90, 95, 0.15);
+
+      --c-romance-endgame: #e63946;
+      --c-romance-past: #a06cd5;
+      --c-romance-brief: #f4a261;
+      --c-family-blood: #2a9d8f;
+      --c-family-chosen: #52b788;
+      --c-platonic: #48cae4;
+      --c-mentor: #ffd166;
+      --c-rival: #8a96a3;
+
+      --c-era-originals: #f5deb3;
+      --c-era-mid: #9cc4e8;
+      --c-era-modern: #d4b5e8;
+      --c-era-kids: #6f7785;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* HEADER */
+    header {
+      padding: 14px 24px 12px;
+      background: linear-gradient(180deg, #131922 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px 24px;
+      z-index: 10;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .brand h1 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-size: 22px;
+      letter-spacing: -0.01em;
+      margin: 0;
+      line-height: 1;
+    }
+    .brand h1 .accent {
+      color: var(--accent);
+    }
+    .brand .tag {
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .controls {
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 16px;
+      justify-content: flex-end;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 8px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+    }
+    .filter-group .label {
+      font-size: 11px;
+      color: var(--text-dim);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0 6px 0 4px;
+    }
+    .chip {
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: transparent;
+      border: 1px solid transparent;
+      padding: 4px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .chip:hover {
+      color: var(--text);
+      background: var(--surface-2);
+    }
+    .chip.active {
+      color: var(--text);
+      background: var(--surface-2);
+      border-color: var(--border-strong);
+    }
+    .chip .swatch {
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+      display: inline-block;
+    }
+
+    .search {
+      position: relative;
+    }
+    .search input {
+      font-family: inherit;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 7px 12px 7px 32px;
+      font-size: 13px;
+      border-radius: 999px;
+      width: 200px;
+      outline: none;
+      transition: border-color 0.15s, width 0.2s;
+    }
+    .search input:focus {
+      border-color: var(--accent);
+      width: 240px;
+    }
+    .search::before {
+      content: "⌕";
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      font-size: 16px;
+      pointer-events: none;
+    }
+
+    /* MAIN */
+    main {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #cy {
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, #131a23 0%, var(--bg) 100%);
+    }
+
+    /* SIDE PANEL */
+    #panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: min(440px, 100%);
+      height: 100%;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      transform: translateX(100%);
+      transition: transform 0.28s cubic-bezier(0.22, 0.61, 0.36, 1);
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      box-shadow: -20px 0 40px rgba(0,0,0,0.4);
+    }
+    #panel.open {
+      transform: translateX(0);
+    }
+    .panel-header {
+      padding: 28px 28px 20px;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      flex-shrink: 0;
+    }
+    .panel-avatar {
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      margin-bottom: 14px;
+      border: 2px solid var(--border-strong);
+      background: var(--surface-2);
+      display: block;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+    }
+    .panel-avatar.deceased {
+      filter: grayscale(0.4);
+      border-color: #000;
+    }
+    .panel-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+    .panel-close:hover {
+      color: var(--text);
+      background: var(--surface-2);
+      border-color: var(--border-strong);
+    }
+    .panel-pretitle {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+    .panel-title {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 1.15;
+      letter-spacing: -0.015em;
+      margin: 0 0 6px;
+    }
+    .panel-title.relationship {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px 10px;
+    }
+    .panel-title .symbol {
+      color: var(--text-dim);
+      font-weight: 400;
+    }
+    .panel-sub {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .panel-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+    .panel-chip {
+      font-size: 11px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--surface-2);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .panel-chip .swatch {
+      width: 8px;
+      height: 8px;
+      border-radius: 2px;
+    }
+    .panel-chip.note {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-color: rgba(255, 90, 95, 0.3);
+    }
+
+    .panel-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px 28px 32px;
+    }
+    .panel-body::-webkit-scrollbar {
+      width: 8px;
+    }
+    .panel-body::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+    .panel-body::-webkit-scrollbar-thumb:hover {
+      background: var(--border-strong);
+    }
+
+    .panel-note {
+      background: var(--surface-2);
+      border-left: 3px solid var(--accent);
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .panel-bio {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text);
+      margin-bottom: 24px;
+    }
+    .panel-section-h {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin: 0 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+    .event {
+      display: grid;
+      grid-template-columns: 56px 1fr;
+      gap: 14px;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+      transition: background 0.1s;
+    }
+    .event:hover {
+      background: rgba(255,255,255,0.02);
+    }
+    .event .yr {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: var(--text-muted);
+      text-align: right;
+      padding-top: 1px;
+      letter-spacing: -0.01em;
+    }
+    .event .lbl {
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: var(--text);
+    }
+    .event .ctx {
+      display: block;
+      font-size: 11px;
+      color: var(--text-dim);
+      margin-top: 3px;
+      letter-spacing: 0.02em;
+    }
+    .event .ctx a {
+      color: var(--text-muted);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--text-dim);
+      cursor: pointer;
+    }
+    .event .ctx a:hover {
+      color: var(--text);
+      border-color: var(--text-muted);
+    }
+    .event.solo .lbl::before {
+      content: "";
+    }
+
+    .members-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .member {
+      display: grid;
+      grid-template-columns: 56px 1fr;
+      gap: 14px;
+      padding: 8px 0;
+    }
+    .member .yr {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--text-muted);
+      text-align: right;
+    }
+    .member .name {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .member .note {
+      display: block;
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 2px;
+      line-height: 1.5;
+    }
+
+    /* FOOTER */
+    footer {
+      background: linear-gradient(0deg, #131922 0%, var(--bg) 100%);
+      border-top: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      z-index: 10;
+    }
+    .year-display {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: -0.01em;
+      min-width: 240px;
+    }
+    .year-display .label {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      margin-right: 8px;
+    }
+    .slider-wrap {
+      flex: 1;
+      min-width: 280px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .slider-bound {
+      font-size: 11px;
+      color: var(--text-dim);
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 500;
+    }
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      flex: 1;
+      height: 4px;
+      background: var(--border);
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: var(--accent);
+      border: 3px solid var(--bg);
+      border-radius: 50%;
+      cursor: grab;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    input[type="range"]::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      background: var(--accent);
+      border: 3px solid var(--bg);
+      border-radius: 50%;
+      cursor: grab;
+    }
+
+    .footer-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .btn {
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn:hover {
+      color: var(--text);
+      background: var(--surface-2);
+      border-color: var(--border-strong);
+    }
+    .btn.active {
+      color: var(--text);
+      background: var(--accent-soft);
+      border-color: rgba(255, 90, 95, 0.4);
+    }
+    .toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+    }
+    .toggle input {
+      appearance: none;
+      width: 28px;
+      height: 16px;
+      background: var(--border);
+      border-radius: 8px;
+      position: relative;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .toggle input:checked {
+      background: var(--accent);
+    }
+    .toggle input::after {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 12px;
+      height: 12px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.15s;
+    }
+    .toggle input:checked::after {
+      transform: translateX(12px);
+    }
+
+    /* LOADING */
+    #loading {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 12px;
+      background: var(--bg);
+      z-index: 30;
+      transition: opacity 0.3s;
+    }
+    #loading.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    #loading .msg {
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+    #loading .err {
+      color: var(--accent);
+      font-size: 13px;
+      max-width: 520px;
+      text-align: center;
+      line-height: 1.5;
+      padding: 0 24px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      header { padding: 12px 16px; }
+      .search input { width: 140px; }
+      #panel { width: 100%; }
+      footer { padding: 10px 16px; gap: 12px; }
+      .year-display { min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <h1>Grey Sloan<span class="accent">·</span>The Web</h1>
+      <div class="tag">A Grey's Anatomy relationship map · 2005 → today</div>
+    </div>
+    <div class="controls">
+      <div class="filter-group" id="era-filter">
+        <span class="label">Era</span>
+        <button class="chip active" data-era="originals">Originals</button>
+        <button class="chip active" data-era="mid">Mid</button>
+        <button class="chip active" data-era="modern">Modern</button>
+      </div>
+      <div class="filter-group" id="type-filter">
+        <span class="label">Edges</span>
+        <button class="chip active" data-types="romantic-endgame,romantic-past,romantic-brief"><span class="swatch" style="background:var(--c-romance-endgame)"></span>Romance</button>
+        <button class="chip active" data-types="family-blood,family-chosen"><span class="swatch" style="background:var(--c-family-blood)"></span>Family</button>
+        <button class="chip active" data-types="platonic-deep"><span class="swatch" style="background:var(--c-platonic)"></span>Friendship</button>
+        <button class="chip active" data-types="mentor"><span class="swatch" style="background:var(--c-mentor)"></span>Mentor</button>
+        <button class="chip active" data-types="rival"><span class="swatch" style="background:var(--c-rival)"></span>Rival</button>
+      </div>
+      <div class="search">
+        <input type="search" id="search" placeholder="Find a character..." autocomplete="off" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="cy"></div>
+
+    <aside id="panel" aria-hidden="true">
+      <div class="panel-header" id="panel-header"></div>
+      <div class="panel-body" id="panel-body"></div>
+    </aside>
+
+    <div id="loading">
+      <div class="spinner"></div>
+      <div class="msg">Loading the web…</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="year-display"><span class="label">Seattle Grace,</span><span id="year-label">All time</span></div>
+    <div class="slider-wrap">
+      <span class="slider-bound">2005</span>
+      <input type="range" id="year-slider" min="2005" max="2026" value="2026" step="1" />
+      <span class="slider-bound">2026</span>
+    </div>
+    <div class="footer-actions">
+      <label class="toggle" title="Ignore the year slider — show every character at full opacity. Move the slider to enter the time-machine view.">
+        <input type="checkbox" id="all-years" checked />
+        <span>All years</span>
+      </label>
+      <button class="btn" id="layout-toggle" title="Switch between organic and Meredith-centered layouts">Concentric</button>
+      <button class="btn" id="reset-view">Reset</button>
+    </div>
+  </footer>
+
+  <script>
+    // ====================================================================
+    // CONSTANTS
+    // ====================================================================
+    const TYPE_COLORS = {
+      'romantic-endgame': '#e63946',
+      'romantic-past':    '#a06cd5',
+      'romantic-brief':   '#f4a261',
+      'family-blood':     '#2a9d8f',
+      'family-chosen':    '#52b788',
+      'platonic-deep':    '#48cae4',
+      'mentor':           '#ffd166',
+      'rival':            '#8a96a3'
+    };
+
+    const TYPE_LABELS = {
+      'romantic-endgame': 'Endgame romance',
+      'romantic-past':    'Past romance',
+      'romantic-brief':   'Brief romance',
+      'family-blood':     'Family (blood)',
+      'family-chosen':    'Family (chosen)',
+      'platonic-deep':    'Deep friendship',
+      'mentor':           'Mentor / mentee',
+      'rival':            'Rival'
+    };
+
+    const ERA_COLORS = {
+      'originals': '#f5deb3',
+      'mid':       '#9cc4e8',
+      'modern':    '#d4b5e8'
+    };
+
+    const ERA_LABELS = {
+      'originals': 'Originals',
+      'mid':       'Mid era',
+      'modern':    'Modern era'
+    };
+
+    const IMPORTANCE_SIZE = {
+      'lead':            56,
+      'main':            42,
+      'recurring-major': 30,
+      'kids':            26
+    };
+
+    const YEAR_MIN = 2005;
+    const YEAR_MAX = 2026;
+
+    // ====================================================================
+    // STATE
+    // ====================================================================
+    let cy = null;
+    let CHARACTERS = [];
+    let RELATIONSHIPS = [];
+    let CHAR_BY_ID = {};
+    let REL_BY_ID = {};
+    let RELS_BY_CHAR = {}; // char id -> [rel ids]
+
+    let currentYear = YEAR_MAX;
+    // When true (default), the year slider is ignored and every character /
+    // relationship is shown at full opacity. When the user grabs the slider
+    // it auto-toggles off, enabling the time-machine view.
+    let allYearsMode = true;
+    let layoutMode = 'force'; // 'force' | 'concentric'
+    let activeEras = new Set(['originals', 'mid', 'modern']);
+    let activeTypes = new Set(Object.keys(TYPE_COLORS));
+    let searchTerm = '';
+
+    // ====================================================================
+    // INIT
+    // ====================================================================
+    Promise.all([
+      fetch('data/characters.json').then(r => r.json()),
+      fetch('data/relationships.json').then(r => r.json()),
+    ]).then(([chars, rels]) => {
+      CHARACTERS = chars;
+      RELATIONSHIPS = rels;
+      CHAR_BY_ID = Object.fromEntries(chars.map(c => [c.id, c]));
+      REL_BY_ID = Object.fromEntries(rels.map(r => [r.id, r]));
+
+      RELS_BY_CHAR = {};
+      for (const r of rels) {
+        (RELS_BY_CHAR[r.from] ||= []).push(r.id);
+        (RELS_BY_CHAR[r.to] ||= []).push(r.id);
+      }
+
+      initCytoscape();
+      wireFilters();
+      wireSearch();
+      wireSlider();
+      wireLayoutToggle();
+      wireKeyboard();
+
+      // Apply year/filter visibility once at startup
+      applyYearAndFilters();
+
+      // Fade out loading
+      setTimeout(() => {
+        document.getElementById('loading').classList.add('hidden');
+      }, 200);
+    }).catch(err => {
+      const loading = document.getElementById('loading');
+      loading.innerHTML = `
+        <div class="err">
+          <strong>Couldn't load the data.</strong><br>
+          ${err.message}<br><br>
+          If you're opening this file directly, browsers block <code>fetch()</code> from <code>file://</code> URLs.
+          Run <code>python3 -m http.server 8000</code> in the project folder and visit
+          <a style="color:var(--accent)" href="http://localhost:8000/">http://localhost:8000/</a>.
+        </div>`;
+      console.error(err);
+    });
+
+    // ====================================================================
+    // CYTOSCAPE
+    // ====================================================================
+    function initCytoscape() {
+      const nodes = CHARACTERS.map(c => {
+        const isKids = c.kind === 'kids-group';
+        return {
+          data: {
+            id: c.id,
+            label: shortLabel(c.name),
+            era: c.era,
+            kind: c.kind || 'character',
+            importance: c.importance,
+            firstYear: c.firstYear,
+            lastYear: c.lastYear,
+            status: c.status,
+            isDeceased: c.status === 'deceased',
+            size: IMPORTANCE_SIZE[c.importance] || 30
+          },
+          classes: [c.era, c.kind || 'character', c.status, c.importance].filter(Boolean).join(' ')
+        };
+      });
+
+      const edges = RELATIONSHIPS.map(r => ({
+        data: {
+          id: r.id,
+          source: r.from,
+          target: r.to,
+          type: r.type,
+          label: r.label || '',
+          color: TYPE_COLORS[r.type] || '#666',
+          startYear: r.startYear,
+          endYear: r.endYear,
+          weight: weightFor(r.type)
+        },
+        classes: [
+          r.type,
+          r.endYear ? 'has-ended' : 'ongoing',
+          r.type.startsWith('romantic') ? 'romantic' : '',
+          r.type.startsWith('family') ? 'family' : ''
+        ].filter(Boolean).join(' ')
+      }));
+
+      cy = cytoscape({
+        container: document.getElementById('cy'),
+        elements: { nodes, edges },
+        wheelSensitivity: 0.2,
+        minZoom: 0.2,
+        maxZoom: 2.5,
+        style: [
+          // Base node
+          {
+            selector: 'node',
+            style: {
+              'background-color': ele => ERA_COLORS[ele.data('era')] || '#888',
+              'label': 'data(label)',
+              'color': '#e8edf2',
+              'font-family': 'Inter, sans-serif',
+              'font-size': 11,
+              'font-weight': 500,
+              'text-valign': 'bottom',
+              'text-halign': 'center',
+              'text-margin-y': 6,
+              'text-outline-color': '#0f1419',
+              'text-outline-width': 2,
+              'text-outline-opacity': 1,
+              'width': 'data(size)',
+              'height': 'data(size)',
+              'border-width': 2,
+              'border-color': '#0f1419',
+              'overlay-opacity': 0,
+              'transition-property': 'opacity, border-color, border-width, background-color',
+              'transition-duration': 200
+            }
+          },
+          // Kids group nodes
+          {
+            selector: 'node.kids-group',
+            style: {
+              'shape': 'round-rectangle',
+              'background-color': '#6f7785',
+              'width': 'data(size)',
+              'height': 32,
+              'padding': 8,
+              'font-style': 'italic'
+            }
+          },
+          // Deceased characters
+          {
+            selector: 'node.deceased',
+            style: {
+              'border-color': '#000',
+              'border-width': 3,
+              'background-blacken': -0.1
+            }
+          },
+          {
+            selector: 'node[importance = "lead"]',
+            style: {
+              'font-size': 13,
+              'font-weight': 600
+            }
+          },
+          // Selected
+          {
+            selector: 'node:selected',
+            style: {
+              'border-color': '#ff5a5f',
+              'border-width': 4
+            }
+          },
+          // Faded
+          {
+            selector: 'node.faded',
+            style: {
+              'opacity': 0.15
+            }
+          },
+          // Hidden (past first year / left era / etc.)
+          {
+            selector: 'node.hidden',
+            style: {
+              'display': 'none'
+            }
+          },
+          // Edges base
+          {
+            selector: 'edge',
+            style: {
+              'curve-style': 'bezier',
+              'line-color': 'data(color)',
+              'target-arrow-color': 'data(color)',
+              'width': 'data(weight)',
+              'opacity': 0.7,
+              'transition-property': 'opacity, width, line-style',
+              'transition-duration': 200
+            }
+          },
+          // Past romance dashed
+          {
+            selector: 'edge.has-ended.romantic',
+            style: {
+              'line-style': 'dashed'
+            }
+          },
+          // Family edges thinner
+          {
+            selector: 'edge.family',
+            style: {
+              'opacity': 0.55
+            }
+          },
+          // Hover focus
+          {
+            selector: 'edge:active',
+            style: {
+              'opacity': 1,
+              'width': ele => ele.data('weight') * 1.5
+            }
+          },
+          // Selected edge
+          {
+            selector: 'edge:selected',
+            style: {
+              'opacity': 1,
+              'width': ele => ele.data('weight') * 1.5,
+              'line-color': 'data(color)'
+            }
+          },
+          // Faded edge
+          {
+            selector: 'edge.faded',
+            style: {
+              'opacity': 0.06
+            }
+          },
+          // Hidden edge
+          {
+            selector: 'edge.hidden',
+            style: {
+              'display': 'none'
+            }
+          },
+          // Muted (past, when hide-past is off)
+          {
+            selector: 'edge.muted',
+            style: {
+              'opacity': 0.18,
+              'line-style': 'dashed'
+            }
+          },
+          // Node-muted (left/deceased before currentYear)
+          {
+            selector: 'node.muted',
+            style: {
+              'opacity': 0.35
+            }
+          }
+        ],
+        layout: forceLayoutOpts()
+      });
+
+      // Click handlers
+      cy.on('tap', 'node', e => {
+        const id = e.target.id();
+        openCharacterPanel(id);
+      });
+      cy.on('tap', 'edge', e => {
+        const id = e.target.id();
+        openRelationshipPanel(id);
+      });
+      cy.on('tap', e => {
+        if (e.target === cy) {
+          closePanel();
+          cy.elements().removeClass('faded');
+        }
+      });
+      // Hover focus
+      cy.on('mouseover', 'edge', e => {
+        const edge = e.target;
+        cy.elements().addClass('faded');
+        edge.removeClass('faded');
+        edge.source().removeClass('faded');
+        edge.target().removeClass('faded');
+      });
+      cy.on('mouseout', 'edge', () => {
+        cy.elements().removeClass('faded');
+      });
+      cy.on('mouseover', 'node', e => {
+        const node = e.target;
+        cy.elements().addClass('faded');
+        node.removeClass('faded');
+        node.neighborhood().removeClass('faded');
+      });
+      cy.on('mouseout', 'node', () => {
+        cy.elements().removeClass('faded');
+      });
+    }
+
+    function forceLayoutOpts() {
+      return {
+        name: 'cose-bilkent',
+        animate: 'end',
+        animationDuration: 800,
+        randomize: true,
+        nodeRepulsion: 8000,
+        idealEdgeLength: 120,
+        edgeElasticity: 0.4,
+        gravity: 0.25,
+        numIter: 2500,
+        tile: false,
+        nodeDimensionsIncludeLabels: true
+      };
+    }
+
+    function concentricLayoutOpts() {
+      return {
+        name: 'concentric',
+        animate: true,
+        animationDuration: 600,
+        concentric: node => {
+          // Meredith at center; leads next; then mains; then recurring; kids outermost
+          if (node.id() === 'meredith') return 100;
+          const imp = node.data('importance');
+          if (imp === 'lead') return 80;
+          if (imp === 'main') return 60;
+          if (imp === 'recurring-major') return 40;
+          return 20;
+        },
+        levelWidth: () => 1,
+        minNodeSpacing: 30,
+        spacingFactor: 1.2
+      };
+    }
+
+    function weightFor(type) {
+      switch (type) {
+        case 'romantic-endgame': return 4.5;
+        case 'platonic-deep':    return 3.8;
+        case 'family-blood':     return 2.2;
+        case 'family-chosen':    return 1.8;
+        case 'mentor':           return 1.8;
+        case 'romantic-past':    return 2;
+        case 'romantic-brief':   return 1.4;
+        case 'rival':            return 1.6;
+        default:                 return 2;
+      }
+    }
+
+    function shortLabel(name) {
+      // For very long names, return as-is — Cytoscape handles wrapping
+      return name;
+    }
+
+    // ====================================================================
+    // PANEL
+    // ====================================================================
+    const panel = () => document.getElementById('panel');
+    const panelHeaderEl = () => document.getElementById('panel-header');
+    const panelBodyEl = () => document.getElementById('panel-body');
+
+    function openCharacterPanel(id) {
+      const c = CHAR_BY_ID[id];
+      if (!c) return;
+      const isKids = c.kind === 'kids-group';
+
+      let html = `<button class="panel-close" onclick="closePanel()" aria-label="Close">✕</button>`;
+
+      if (isKids) {
+        html += `<div class="panel-pretitle">Family unit</div>`;
+        html += `<h2 class="panel-title">${escapeHtml(c.name)}</h2>`;
+        html += `<div class="panel-sub">${c.members.length} ${c.members.length === 1 ? 'child' : 'children'}</div>`;
+      } else {
+        const avatarClass = c.status === 'deceased' ? 'panel-avatar deceased' : 'panel-avatar';
+        html += `<img class="${avatarClass}" src="data/images/${c.id}.webp" alt="${escapeHtml(c.name)}" onerror="this.style.display='none'">`;
+        html += `<div class="panel-pretitle">${ERA_LABELS[c.era] || ''} · ${statusLabel(c.status, c.firstYear, c.lastYear)}</div>`;
+        html += `<h2 class="panel-title">${escapeHtml(c.name)}${c.status === 'deceased' ? ' <span style="font-weight:300;color:var(--text-dim)">✝</span>' : ''}</h2>`;
+        html += `<div class="panel-sub">played by ${escapeHtml(c.actor)}</div>`;
+        if (c.role) html += `<div class="panel-sub" style="margin-top:2px">${escapeHtml(c.role)}</div>`;
+      }
+
+      const yearLabel = isKids ? '' :
+        (c.firstYear && c.lastYear) ? `${c.firstYear} – ${c.lastYear}` :
+        c.firstYear ? `${c.firstYear} – present` : '';
+      if (yearLabel && !isKids) {
+        html += `<div class="panel-chips"><span class="panel-chip">${yearLabel}</span></div>`;
+      }
+
+      panelHeaderEl().innerHTML = html;
+
+      let bodyHtml = '';
+      if (c.note) {
+        bodyHtml += `<div class="panel-note">${escapeHtml(c.note)}</div>`;
+      }
+      if (c.bio) {
+        bodyHtml += `<p class="panel-bio">${escapeHtml(c.bio)}</p>`;
+      }
+
+      if (isKids) {
+        bodyHtml += `<h3 class="panel-section-h">The kids</h3>`;
+        bodyHtml += `<ul class="members-list">`;
+        for (const m of c.members) {
+          bodyHtml += `
+            <li class="member">
+              <div class="yr">${m.year || ''}</div>
+              <div>
+                <span class="name">${escapeHtml(m.name)}</span>
+                ${m.note ? `<span class="note">${escapeHtml(m.note)}</span>` : ''}
+              </div>
+            </li>`;
+        }
+        bodyHtml += `</ul>`;
+
+        // Also show parents
+        const parentRels = (RELS_BY_CHAR[c.id] || []).map(rid => REL_BY_ID[rid]);
+        if (parentRels.length) {
+          bodyHtml += `<h3 class="panel-section-h" style="margin-top:28px">Parents</h3>`;
+          bodyHtml += `<ul class="members-list">`;
+          for (const r of parentRels) {
+            const otherId = r.from === c.id ? r.to : r.from;
+            const other = CHAR_BY_ID[otherId];
+            if (!other) continue;
+            bodyHtml += `
+              <li class="member">
+                <div class="yr"></div>
+                <div>
+                  <a class="name" style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--text-dim);cursor:pointer" onclick="openCharacterPanel('${other.id}')">${escapeHtml(other.name)}</a>
+                  ${r.label ? `<span class="note">${escapeHtml(r.label)}</span>` : ''}
+                </div>
+              </li>`;
+          }
+          bodyHtml += `</ul>`;
+        }
+      } else {
+        // Character timeline: merge soloEvents + events from all relationships, sorted by year.
+        const timeline = buildCharacterTimeline(c);
+        bodyHtml += `<h3 class="panel-section-h">Timeline</h3>`;
+        if (timeline.length === 0) {
+          bodyHtml += `<p style="color:var(--text-dim);font-size:13px">No catalogued events.</p>`;
+        } else {
+          bodyHtml += `<div class="timeline">`;
+          for (const ev of timeline) {
+            bodyHtml += renderEventRow(ev);
+          }
+          bodyHtml += `</div>`;
+        }
+      }
+
+      panelBodyEl().innerHTML = bodyHtml;
+      panel().classList.add('open');
+      panel().setAttribute('aria-hidden', 'false');
+      panelBodyEl().scrollTop = 0;
+
+      // Highlight this character on the graph
+      if (cy) {
+        cy.elements().removeClass('faded');
+        const node = cy.getElementById(id);
+        if (node) {
+          cy.elements().not(node.closedNeighborhood()).addClass('faded');
+        }
+      }
+    }
+
+    function openRelationshipPanel(id) {
+      const r = REL_BY_ID[id];
+      if (!r) return;
+      const fromC = CHAR_BY_ID[r.from];
+      const toC = CHAR_BY_ID[r.to];
+
+      const typeColor = TYPE_COLORS[r.type];
+      const yearRange = (() => {
+        if (r.startYear && r.endYear) return `${r.startYear} – ${r.endYear}`;
+        if (r.startYear) return `${r.startYear} – present`;
+        return '';
+      })();
+
+      let header = `<button class="panel-close" onclick="closePanel()" aria-label="Close">✕</button>`;
+      header += `<div class="panel-pretitle">${TYPE_LABELS[r.type] || r.type}${r.label ? ' · ' + escapeHtml(r.label) : ''}</div>`;
+      header += `<h2 class="panel-title relationship">
+        <a style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--text-dim);cursor:pointer" onclick="openCharacterPanel('${fromC?.id}')">${escapeHtml(fromC?.name || '?')}</a>
+        <span class="symbol">${connectorSymbol(r.type)}</span>
+        <a style="color:var(--text);text-decoration:none;border-bottom:1px dotted var(--text-dim);cursor:pointer" onclick="openCharacterPanel('${toC?.id}')">${escapeHtml(toC?.name || '?')}</a>
+      </h2>`;
+      header += `<div class="panel-chips">
+        <span class="panel-chip"><span class="swatch" style="background:${typeColor}"></span>${TYPE_LABELS[r.type] || r.type}</span>
+        ${yearRange ? `<span class="panel-chip">${yearRange}</span>` : ''}
+      </div>`;
+
+      panelHeaderEl().innerHTML = header;
+
+      let body = '';
+      if (r.summary) {
+        body += `<p class="panel-bio">${escapeHtml(r.summary)}</p>`;
+      }
+      body += `<h3 class="panel-section-h">Timeline</h3>`;
+      if (!r.events || r.events.length === 0) {
+        body += `<p style="color:var(--text-dim);font-size:13px">No catalogued events. This relationship is captured at a glance — explore each character for more.</p>`;
+      } else {
+        body += `<div class="timeline">`;
+        const sorted = [...r.events].sort((a, b) => (a.year || 0) - (b.year || 0));
+        for (const ev of sorted) {
+          body += `<div class="event"><div class="yr">${ev.year || ''}</div><div class="lbl">${escapeHtml(ev.label)}</div></div>`;
+        }
+        body += `</div>`;
+      }
+
+      panelBodyEl().innerHTML = body;
+      panel().classList.add('open');
+      panel().setAttribute('aria-hidden', 'false');
+      panelBodyEl().scrollTop = 0;
+
+      // Highlight the edge and endpoints
+      if (cy) {
+        cy.elements().removeClass('faded');
+        const edge = cy.getElementById(id);
+        if (edge && edge.length) {
+          cy.elements()
+            .not(edge)
+            .not(edge.source())
+            .not(edge.target())
+            .addClass('faded');
+        }
+      }
+    }
+
+    function closePanel() {
+      panel().classList.remove('open');
+      panel().setAttribute('aria-hidden', 'true');
+      if (cy) cy.elements().removeClass('faded');
+    }
+    window.closePanel = closePanel;
+    window.openCharacterPanel = openCharacterPanel;
+    window.openRelationshipPanel = openRelationshipPanel;
+
+    function connectorSymbol(type) {
+      if (type === 'romantic-endgame') return '❤';
+      if (type === 'romantic-past') return '✕';
+      if (type === 'romantic-brief') return '∼';
+      if (type === 'family-blood') return '⌇';
+      if (type === 'family-chosen') return '⌇';
+      if (type === 'platonic-deep') return '⋈';
+      if (type === 'mentor') return '↦';
+      if (type === 'rival') return '⚔';
+      return '·';
+    }
+
+    function statusLabel(status, firstYear, lastYear) {
+      if (status === 'deceased') return `${firstYear}–${lastYear} · Deceased`;
+      if (status === 'left') return `${firstYear}–${lastYear} · Left the show`;
+      if (status === 'alive') return `${firstYear}–present`;
+      return '';
+    }
+
+    function buildCharacterTimeline(c) {
+      const out = [];
+
+      // Solo events
+      for (const e of c.soloEvents || []) {
+        out.push({
+          year: e.year,
+          label: e.label,
+          contextHtml: ''
+        });
+      }
+
+      // Pull events from all this character's relationships
+      const relIds = RELS_BY_CHAR[c.id] || [];
+      for (const rid of relIds) {
+        const r = REL_BY_ID[rid];
+        const otherId = r.from === c.id ? r.to : r.from;
+        const other = CHAR_BY_ID[otherId];
+        const otherName = other?.name || '?';
+        const ctx = `with <a onclick="openCharacterPanel('${otherId}')">${escapeHtml(otherName)}</a> — ${escapeHtml(TYPE_LABELS[r.type] || r.type)}`;
+        for (const e of r.events || []) {
+          out.push({
+            year: e.year,
+            label: e.label,
+            contextHtml: ctx
+          });
+        }
+      }
+
+      // Sort by year ascending; events with no year sort to the end
+      out.sort((a, b) => {
+        if (a.year == null) return 1;
+        if (b.year == null) return -1;
+        return a.year - b.year;
+      });
+
+      return out;
+    }
+
+    function renderEventRow(ev) {
+      return `<div class="event"><div class="yr">${ev.year || ''}</div>` +
+        `<div class="lbl">${escapeHtml(ev.label)}` +
+        (ev.contextHtml ? `<span class="ctx">${ev.contextHtml}</span>` : '') +
+        `</div></div>`;
+    }
+
+    function escapeHtml(s) {
+      if (s == null) return '';
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    // ====================================================================
+    // FILTERS / SEARCH / YEAR
+    // ====================================================================
+    function wireFilters() {
+      // Era chips
+      document.querySelectorAll('#era-filter .chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const era = btn.dataset.era;
+          if (activeEras.has(era)) {
+            activeEras.delete(era);
+            btn.classList.remove('active');
+          } else {
+            activeEras.add(era);
+            btn.classList.add('active');
+          }
+          applyYearAndFilters();
+        });
+      });
+
+      // Type chips
+      document.querySelectorAll('#type-filter .chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const types = btn.dataset.types.split(',');
+          const allOn = types.every(t => activeTypes.has(t));
+          if (allOn) {
+            types.forEach(t => activeTypes.delete(t));
+            btn.classList.remove('active');
+          } else {
+            types.forEach(t => activeTypes.add(t));
+            btn.classList.add('active');
+          }
+          applyYearAndFilters();
+        });
+      });
+
+      // All-years toggle
+      document.getElementById('all-years').addEventListener('change', e => {
+        allYearsMode = e.target.checked;
+        updateYearLabel();
+        applyYearAndFilters();
+      });
+
+      // Reset
+      document.getElementById('reset-view').addEventListener('click', () => {
+        if (cy) cy.animate({ fit: { padding: 30 }, duration: 500 });
+      });
+    }
+
+    function wireSearch() {
+      const input = document.getElementById('search');
+      input.addEventListener('input', e => {
+        searchTerm = e.target.value.trim().toLowerCase();
+        applyYearAndFilters();
+        if (searchTerm.length >= 2 && cy) {
+          const matches = cy.nodes().filter(n => {
+            const name = (CHAR_BY_ID[n.id()]?.name || '').toLowerCase();
+            return name.includes(searchTerm);
+          });
+          if (matches.length === 1) {
+            cy.animate({ center: { eles: matches }, zoom: 1.2, duration: 400 });
+          } else if (matches.length > 1) {
+            cy.animate({ fit: { eles: matches, padding: 80 }, duration: 400 });
+          }
+        }
+      });
+    }
+
+    function wireSlider() {
+      const slider = document.getElementById('year-slider');
+      slider.addEventListener('input', e => {
+        currentYear = +e.target.value;
+        // Grabbing the slider implies the user wants the time-machine view,
+        // so drop out of all-years mode automatically.
+        if (allYearsMode) {
+          allYearsMode = false;
+          document.getElementById('all-years').checked = false;
+        }
+        updateYearLabel();
+        applyYearAndFilters();
+      });
+    }
+
+    function updateYearLabel() {
+      const label = document.getElementById('year-label');
+      label.textContent = allYearsMode ? 'All time' : currentYear;
+    }
+
+    function wireLayoutToggle() {
+      const btn = document.getElementById('layout-toggle');
+      btn.addEventListener('click', () => {
+        if (layoutMode === 'force') {
+          layoutMode = 'concentric';
+          btn.textContent = 'Organic';
+          btn.classList.add('active');
+          cy.layout(concentricLayoutOpts()).run();
+        } else {
+          layoutMode = 'force';
+          btn.textContent = 'Concentric';
+          btn.classList.remove('active');
+          cy.layout(forceLayoutOpts()).run();
+        }
+      });
+    }
+
+    function wireKeyboard() {
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          closePanel();
+        } else if (e.key === '/' && document.activeElement !== document.getElementById('search')) {
+          e.preventDefault();
+          document.getElementById('search').focus();
+        }
+      });
+    }
+
+    function applyYearAndFilters() {
+      if (!cy) return;
+
+      cy.batch(() => {
+        cy.nodes().forEach(n => {
+          n.removeClass('hidden muted faded');
+          const c = CHAR_BY_ID[n.id()];
+          if (!c) return;
+
+          // Era filter
+          if (c.era && !activeEras.has(c.era) && c.kind !== 'kids-group') {
+            n.addClass('hidden');
+            return;
+          }
+          if (c.kind === 'kids-group' && c.era && !activeEras.has(c.era)) {
+            n.addClass('hidden');
+            return;
+          }
+
+          // Year-based visibility only applies in time-machine mode.
+          if (!allYearsMode) {
+            if (c.firstYear && c.firstYear > currentYear) {
+              n.addClass('hidden');
+              return;
+            }
+            if (c.lastYear && c.lastYear < currentYear) {
+              n.addClass('muted');
+            }
+          }
+
+          // Search: dim non-matching
+          if (searchTerm && searchTerm.length >= 2) {
+            const name = (c.name || '').toLowerCase();
+            if (!name.includes(searchTerm)) {
+              n.addClass('faded');
+            }
+          }
+        });
+
+        cy.edges().forEach(e => {
+          e.removeClass('hidden muted faded');
+          const r = REL_BY_ID[e.id()];
+          if (!r) return;
+
+          // Type filter
+          if (!activeTypes.has(r.type)) {
+            e.addClass('hidden');
+            return;
+          }
+
+          // Source / target hidden? hide edge too
+          if (e.source().hasClass('hidden') || e.target().hasClass('hidden')) {
+            e.addClass('hidden');
+            return;
+          }
+
+          // Year-based visibility only applies in time-machine mode.
+          if (!allYearsMode) {
+            if (r.startYear && r.startYear > currentYear) {
+              e.addClass('hidden');
+              return;
+            }
+            if (r.endYear && r.endYear < currentYear) {
+              e.addClass('muted');
+            }
+          }
+
+          // Search dims edges not connecting matched nodes
+          if (searchTerm && searchTerm.length >= 2) {
+            if (e.source().hasClass('faded') && e.target().hasClass('faded')) {
+              e.addClass('faded');
+            }
+          }
+        });
+      });
+    }
+  </script>
+
+</body>
+</html>

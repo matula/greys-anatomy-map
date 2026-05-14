@@ -1,0 +1,2413 @@
+[
+  {
+    "id": "meredith-derek",
+    "from": "meredith",
+    "to": "derek",
+    "type": "romantic-endgame",
+    "label": "Endgame \u00b7 Widowed",
+    "summary": "MerDer. The defining love story of the show; the one every other Grey's relationship gets compared to.",
+    "startYear": 2005,
+    "endYear": 2015,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Meet at Joe's Bar the night before Meredith's first day as an intern; one-night stand"
+      },
+      {
+        "year": 2005,
+        "label": "Reveal: Derek is the new attending neurosurgeon \u2014 and still married to Addison"
+      },
+      {
+        "year": 2006,
+        "label": "Choose each other once before the prom-night hookup; Derek tells her he and Addison are separating"
+      },
+      {
+        "year": 2007,
+        "label": "'Pick me, choose me, love me.' Derek picks Addison instead \u2014 until he doesn't"
+      },
+      {
+        "year": 2008,
+        "label": "House of candles: Derek builds a vision of their future home out of candles on his land"
+      },
+      {
+        "year": 2010,
+        "label": "Married on a Post-it note in their kitchen, with hand-written vows"
+      },
+      {
+        "year": 2010,
+        "label": "Meredith is shot in the abdomen during the hospital shooting; loses their pregnancy"
+      },
+      {
+        "year": 2011,
+        "label": "Adopt Zola after she's a NICU patient at Seattle Grace"
+      },
+      {
+        "year": 2012,
+        "label": "Plane crash; Derek's left hand is critically injured"
+      },
+      {
+        "year": 2013,
+        "label": "Son Bailey born during a citywide blackout in their bathroom"
+      },
+      {
+        "year": 2014,
+        "label": "Derek takes the presidential brain-mapping job in D.C.; commutes; marriage strains"
+      },
+      {
+        "year": 2014,
+        "label": "Daughter Ellis born"
+      },
+      {
+        "year": 2015,
+        "label": "Derek killed in a car accident en route to the airport"
+      }
+    ]
+  },
+  {
+    "id": "meredith-finn",
+    "from": "meredith",
+    "to": "finn",
+    "type": "romantic-brief",
+    "label": "Briefly dated",
+    "summary": "Derek's rival for Meredith in late S2 / early S3 \u2014 the good guy who lost.",
+    "startYear": 2006,
+    "endYear": 2006,
+    "events": [
+      {
+        "year": 2006,
+        "label": "Meredith meets 'McVet' as her dog's vet"
+      },
+      {
+        "year": 2006,
+        "label": "Goes on a double dinner-date stand-off with Derek and Addison"
+      },
+      {
+        "year": 2006,
+        "label": "Meredith picks Derek; Finn exits"
+      }
+    ]
+  },
+  {
+    "id": "meredith-riggs",
+    "from": "meredith",
+    "to": "riggs",
+    "type": "romantic-past",
+    "label": "On-and-off",
+    "summary": "Meredith's first real attempt at moving on after Derek \u2014 complicated by Owen's hatred of Riggs.",
+    "startYear": 2016,
+    "endYear": 2017,
+    "events": [
+      {
+        "year": 2016,
+        "label": "Sleep together at Alex's hearing-week; Meredith is wracked with guilt"
+      },
+      {
+        "year": 2017,
+        "label": "Try to make it work openly; Owen and Maggie object"
+      },
+      {
+        "year": 2017,
+        "label": "Megan Hunt returns from the dead; Meredith pushes Riggs to go to her"
+      }
+    ]
+  },
+  {
+    "id": "meredith-deluca",
+    "from": "meredith",
+    "to": "deluca",
+    "type": "romantic-past",
+    "label": "Past relationship",
+    "summary": "Younger-resident love that helped Meredith feel young again \u2014 and ended in tragedy.",
+    "startYear": 2018,
+    "endYear": 2020,
+    "events": [
+      {
+        "year": 2018,
+        "label": "Drunken near-kiss at a hospital function"
+      },
+      {
+        "year": 2019,
+        "label": "Meredith covers for DeLuca's role in the insurance-fraud charge; he takes the blame"
+      },
+      {
+        "year": 2020,
+        "label": "DeLuca's mania spikes while uncovering a trafficking ring; their relationship effectively ends"
+      },
+      {
+        "year": 2021,
+        "label": "DeLuca is stabbed to death; Meredith is at his side as he dies"
+      }
+    ]
+  },
+  {
+    "id": "meredith-nick",
+    "from": "meredith",
+    "to": "nick",
+    "type": "romantic-endgame",
+    "label": "Current partner",
+    "summary": "The man Meredith first saved in 2017 and fell for in 2021 \u2014 the show's third great love for her.",
+    "startYear": 2021,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2017,
+        "label": "Meredith saves him in Minnesota during a transplant complication; one-night stand"
+      },
+      {
+        "year": 2021,
+        "label": "Re-meet when Meredith consults at Mayo for the Parkinson's trial"
+      },
+      {
+        "year": 2022,
+        "label": "Move in together in Seattle and Boston"
+      },
+      {
+        "year": 2026,
+        "label": "Nick nearly dies in the bridge-collapse pile-up; renal artery thrombosis on his transplanted kidney"
+      },
+      {
+        "year": 2026,
+        "label": "Meredith proposes in the ICU as he wakes up"
+      }
+    ]
+  },
+  {
+    "id": "meredith-cristina",
+    "from": "meredith",
+    "to": "cristina",
+    "type": "platonic-deep",
+    "label": "'You're my person'",
+    "summary": "Twisted sisters. The single most-quoted relationship on the show. 'You're my person.'",
+    "startYear": 2005,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Compete for the same surgery on day one"
+      },
+      {
+        "year": 2005,
+        "label": "Meredith puts 'Cristina Yang' on the abortion-clinic form as her emergency contact: 'You're my person.'"
+      },
+      {
+        "year": 2008,
+        "label": "Dance It Out becomes their thing"
+      },
+      {
+        "year": 2010,
+        "label": "Operate on Derek at gunpoint during the shooting"
+      },
+      {
+        "year": 2012,
+        "label": "Survive the plane crash side by side"
+      },
+      {
+        "year": 2014,
+        "label": "Final dance-it-out in Meredith's living room as Cristina leaves for Zurich"
+      },
+      {
+        "year": 2020,
+        "label": "Cristina sends Meredith four doctors (including Cormac Hayes) when she contracts COVID"
+      }
+    ]
+  },
+  {
+    "id": "meredith-alex",
+    "from": "meredith",
+    "to": "alex",
+    "type": "platonic-deep",
+    "label": "Her person (post-Cristina)",
+    "summary": "Started as bickering interns, ended as the deepest friendship of the show's middle era.",
+    "startYear": 2005,
+    "endYear": 2020,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Hate each other on sight as interns"
+      },
+      {
+        "year": 2014,
+        "label": "Meredith calls Alex her 'person' after Cristina leaves"
+      },
+      {
+        "year": 2018,
+        "label": "Alex is named interim chief; Meredith is the first person he calls"
+      },
+      {
+        "year": 2020,
+        "label": "Alex disappears; Meredith only learns where he went via a letter"
+      }
+    ]
+  },
+  {
+    "id": "meredith-izzie",
+    "from": "meredith",
+    "to": "izzie",
+    "type": "platonic-deep",
+    "label": "Original sisterhood",
+    "summary": "Roommates, friends, the women who lived in Meredith's house through the early seasons.",
+    "startYear": 2005,
+    "endYear": 2010,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Izzie moves into Meredith's mother's house with George"
+      },
+      {
+        "year": 2006,
+        "label": "Meredith covers for Izzie after the LVAD-wire incident kills Denny"
+      },
+      {
+        "year": 2009,
+        "label": "Meredith plans Izzie's bedside wedding to Alex"
+      },
+      {
+        "year": 2010,
+        "label": "Izzie leaves; they don't speak again until Alex's S16 letters confirm she's alive"
+      }
+    ]
+  },
+  {
+    "id": "meredith-george",
+    "from": "meredith",
+    "to": "george",
+    "type": "platonic-deep",
+    "label": "Bambi & Mer",
+    "summary": "Early-seasons crush turned brotherly bond. Tracing '007' into her palm was his last act.",
+    "startYear": 2005,
+    "endYear": 2009,
+    "events": [
+      {
+        "year": 2005,
+        "label": "George rooms in Meredith's mother's house; harbors a crush"
+      },
+      {
+        "year": 2006,
+        "label": "Sleep together once; George cries; they pretend it never happened"
+      },
+      {
+        "year": 2009,
+        "label": "Meredith identifies him as 'John Doe' when he traces '007' into her palm; donates his organs"
+      }
+    ]
+  },
+  {
+    "id": "meredith-lexie",
+    "from": "meredith",
+    "to": "lexie",
+    "type": "family-blood",
+    "label": "Half-sisters",
+    "summary": "Father Thatcher's other daughter. From 'I don't have a sister' to picking her up at the airport with a sign.",
+    "startYear": 2007,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Lexie tracks Meredith down at the hospital; Meredith refuses to acknowledge her"
+      },
+      {
+        "year": 2008,
+        "label": "Meredith lets Lexie move in to her house"
+      },
+      {
+        "year": 2012,
+        "label": "Lexie dies in the plane crash with Meredith feet away, unable to reach her"
+      }
+    ]
+  },
+  {
+    "id": "meredith-maggie",
+    "from": "meredith",
+    "to": "maggie",
+    "type": "family-blood",
+    "label": "Half-sisters",
+    "summary": "The half-sister Meredith didn't know she had; arrived in 2014 announcing the news at the worst possible time.",
+    "startYear": 2014,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2014,
+        "label": "Maggie arrives at Grey Sloan, drops the bombshell that Ellis was her biological mother"
+      },
+      {
+        "year": 2015,
+        "label": "Maggie moves into Meredith's house after Derek dies"
+      },
+      {
+        "year": 2023,
+        "label": "Maggie leaves for Chicago; Meredith promises to keep her bedroom"
+      }
+    ]
+  },
+  {
+    "id": "meredith-ellis",
+    "from": "meredith",
+    "to": "ellis-grey",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "The towering, withholding shadow over Meredith's entire life and career.",
+    "startYear": 2005,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Meredith is her primary caregiver as Ellis lives with Alzheimer's"
+      },
+      {
+        "year": 2007,
+        "label": "Ellis has a brief lucid moment during a code blue; tells Meredith she's nothing like her"
+      },
+      {
+        "year": 2007,
+        "label": "Ellis dies of heart failure that same day"
+      }
+    ]
+  },
+  {
+    "id": "meredith-thatcher",
+    "from": "meredith",
+    "to": "thatcher",
+    "type": "family-blood",
+    "label": "Father (estranged)",
+    "summary": "Walked out on Meredith and Ellis when she was five. Slowly, painfully, reconciled.",
+    "startYear": 2006,
+    "endYear": 2018,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Thatcher slaps Meredith at the hospital after Susan dies, blaming her"
+      },
+      {
+        "year": 2009,
+        "label": "Meredith donates part of her liver to save him after his alcoholic-related failure"
+      },
+      {
+        "year": 2018,
+        "label": "Reconciles with Meredith in his last days; dies of cancer"
+      }
+    ]
+  },
+  {
+    "id": "meredith-susan-grey",
+    "from": "meredith",
+    "to": "susan-grey",
+    "type": "family-chosen",
+    "label": "Stepmother",
+    "summary": "The only motherly figure Meredith really had; their bond made Susan's sudden death cut deeper.",
+    "startYear": 2007,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Susan invites Meredith to family dinners; Meredith warms to her"
+      },
+      {
+        "year": 2007,
+        "label": "Susan dies of TSS in what should have been a routine admission"
+      }
+    ]
+  },
+  {
+    "id": "meredith-kids-grey-shepherd",
+    "from": "meredith",
+    "to": "kids-grey-shepherd",
+    "type": "family-blood",
+    "label": "Mother of Zola, Bailey & Ellis",
+    "summary": "Meredith's three children with Derek.",
+    "startYear": 2010,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Meredith and Derek meet Zola in Seattle Grace's NICU"
+      },
+      {
+        "year": 2011,
+        "label": "Zola's adoption finalized"
+      },
+      {
+        "year": 2013,
+        "label": "Bailey born during the citywide blackout in Meredith's bathroom"
+      },
+      {
+        "year": 2014,
+        "label": "Ellis born"
+      },
+      {
+        "year": 2023,
+        "label": "Whole family relocates to Boston"
+      }
+    ]
+  },
+  {
+    "id": "meredith-carolyn-shepherd",
+    "from": "meredith",
+    "to": "carolyn-shepherd",
+    "type": "family-chosen",
+    "label": "Mother-in-law",
+    "summary": "Came to the wedding; quietly approved.",
+    "startYear": 2014,
+    "endYear": 2015,
+    "events": [
+      {
+        "year": 2014,
+        "label": "Visits Seattle around Meredith and Derek's small ceremony"
+      },
+      {
+        "year": 2015,
+        "label": "Returns briefly after Derek's death"
+      }
+    ]
+  },
+  {
+    "id": "meredith-amelia",
+    "from": "meredith",
+    "to": "amelia",
+    "type": "family-chosen",
+    "label": "Sister-in-law",
+    "summary": "Started as resentful housemates after Derek died, ended as actual sisters.",
+    "startYear": 2014,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2014,
+        "label": "Amelia moves into Meredith's house"
+      },
+      {
+        "year": 2015,
+        "label": "Amelia delivers the news that Derek is dead; the two are barely speaking"
+      },
+      {
+        "year": 2018,
+        "label": "They become genuinely close after Amelia's tumor surgery"
+      }
+    ]
+  },
+  {
+    "id": "meredith-bailey",
+    "from": "meredith",
+    "to": "bailey",
+    "type": "mentor",
+    "label": "Mentor \u2192 Friend",
+    "summary": "Meredith's intern-year boss; the woman who held her steady through the worst of it.",
+    "startYear": 2005,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Bailey is Meredith's intern-year boss"
+      },
+      {
+        "year": 2014,
+        "label": "Bailey delivers Meredith's daughter Ellis"
+      },
+      {
+        "year": 2019,
+        "label": "Bailey is the one who fires Meredith after the insurance-fraud scandal; eventually rehires her"
+      }
+    ]
+  },
+  {
+    "id": "meredith-webber",
+    "from": "meredith",
+    "to": "webber",
+    "type": "mentor",
+    "label": "Mentor / father figure",
+    "summary": "Slept with her mother; ran her surgical training; gave her away at her courthouse wedding.",
+    "startYear": 2005,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Webber is Chief on Meredith's first day; reveals he was Ellis's lover"
+      },
+      {
+        "year": 2014,
+        "label": "Maggie reveals he's also her biological father"
+      },
+      {
+        "year": 2019,
+        "label": "Walks Meredith into court for the insurance-fraud sentencing"
+      }
+    ]
+  },
+  {
+    "id": "derek-addison",
+    "from": "derek",
+    "to": "addison",
+    "type": "romantic-past",
+    "label": "First wife \u00b7 Divorced",
+    "summary": "The 'Satan' of S2: a wife none of us knew existed. The marriage ended over Mark, technically.",
+    "startYear": 2005,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Addison shows up at the Seattle Grace prom in a dramatic black trenchcoat"
+      },
+      {
+        "year": 2006,
+        "label": "Try to repair the marriage in Derek's trailer; fail"
+      },
+      {
+        "year": 2007,
+        "label": "Divorce finalized"
+      }
+    ]
+  },
+  {
+    "id": "derek-mark",
+    "from": "derek",
+    "to": "mark",
+    "type": "platonic-deep",
+    "label": "Best friends \u2192 enemies \u2192 friends",
+    "summary": "Brothers from Manhattan med school. The Addison affair broke them; the surgery saved them.",
+    "startYear": 2005,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Falling-out at the start of the show after Mark sleeps with Addison"
+      },
+      {
+        "year": 2006,
+        "label": "Mark follows Addison to Seattle; Derek punches him in the lobby"
+      },
+      {
+        "year": 2009,
+        "label": "Slowly rebuild the friendship over years"
+      },
+      {
+        "year": 2012,
+        "label": "Mark dies; Derek mourns him as a brother"
+      }
+    ]
+  },
+  {
+    "id": "derek-amelia",
+    "from": "derek",
+    "to": "amelia",
+    "type": "family-blood",
+    "label": "Brother & Sister",
+    "summary": "Big-brother neurosurgeon, little-sister neurosurgeon \u2014 five Shepherd siblings, the two who became surgeons.",
+    "startYear": 2014,
+    "endYear": 2015,
+    "events": [
+      {
+        "year": 2014,
+        "label": "Amelia moves to Seattle from Los Angeles"
+      },
+      {
+        "year": 2015,
+        "label": "Derek's death devastates Amelia and triggers a relapse"
+      }
+    ]
+  },
+  {
+    "id": "derek-kids-grey-shepherd",
+    "from": "derek",
+    "to": "kids-grey-shepherd",
+    "type": "family-blood",
+    "label": "Father of Zola, Bailey & Ellis",
+    "summary": "Adopted Zola in 2011; fathered Bailey in 2013. Died before Ellis was born.",
+    "startYear": 2011,
+    "endYear": 2015,
+    "events": [
+      {
+        "year": 2011,
+        "label": "Zola's adoption finalized"
+      },
+      {
+        "year": 2013,
+        "label": "Delivers Bailey himself in their bathroom during the blackout"
+      },
+      {
+        "year": 2015,
+        "label": "Dies before learning Meredith is pregnant with Ellis"
+      }
+    ]
+  },
+  {
+    "id": "derek-carolyn-shepherd",
+    "from": "derek",
+    "to": "carolyn-shepherd",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "Watched her father die in front of her as a child; raised her own kids the same way.",
+    "startYear": 2014,
+    "endYear": 2015,
+    "events": []
+  },
+  {
+    "id": "derek-webber",
+    "from": "derek",
+    "to": "webber",
+    "type": "mentor",
+    "label": "Mentor / Friend",
+    "summary": "Brought Derek to Seattle Grace from New York; Derek later succeeded him as Chief, briefly.",
+    "startYear": 2005,
+    "endYear": 2015,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Webber recruits Derek to Seattle Grace"
+      },
+      {
+        "year": 2009,
+        "label": "Derek replaces Webber as Chief"
+      }
+    ]
+  },
+  {
+    "id": "cristina-burke",
+    "from": "cristina",
+    "to": "burke",
+    "type": "romantic-past",
+    "label": "Left at the altar",
+    "summary": "Mentor-turned-fianc\u00e9. The most over-produced wedding on the show ended with him gone before she walked down the aisle.",
+    "startYear": 2005,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Begin a secret affair while she's his intern"
+      },
+      {
+        "year": 2006,
+        "label": "Burke is shot by Mr. Carlson; develops a tremor he hides"
+      },
+      {
+        "year": 2007,
+        "label": "Engaged; she moves in to his loft"
+      },
+      {
+        "year": 2007,
+        "label": "He leaves a note and disappears the morning of their wedding"
+      },
+      {
+        "year": 2014,
+        "label": "Returns to gift her the Klausman Institute in Zurich"
+      }
+    ]
+  },
+  {
+    "id": "cristina-owen",
+    "from": "cristina",
+    "to": "owen",
+    "type": "romantic-past",
+    "label": "Married \u00b7 Divorced",
+    "summary": "Second great love. Her career-and-no-kids vs. his desire-for-family broke them \u2014 twice.",
+    "startYear": 2008,
+    "endYear": 2014,
+    "events": [
+      {
+        "year": 2009,
+        "label": "Owen wakes up choking her in a PTSD episode"
+      },
+      {
+        "year": 2010,
+        "label": "Married in a small courthouse ceremony after surviving the shooting together"
+      },
+      {
+        "year": 2011,
+        "label": "Cristina has an abortion over Owen's objections"
+      },
+      {
+        "year": 2012,
+        "label": "Plane crash; bond deepens, but the fractures don't heal"
+      },
+      {
+        "year": 2013,
+        "label": "Divorced"
+      },
+      {
+        "year": 2014,
+        "label": "Dance it out in his office one last time before she leaves for Zurich"
+      }
+    ]
+  },
+  {
+    "id": "cristina-shane",
+    "from": "cristina",
+    "to": "shane",
+    "type": "mentor",
+    "label": "Mentor & prot\u00e9g\u00e9",
+    "summary": "Shane became Cristina's chosen surgical heir; followed her to Zurich.",
+    "startYear": 2012,
+    "endYear": 2014,
+    "events": [
+      {
+        "year": 2012,
+        "label": "Shane joins Cristina's lab as his intern preference"
+      },
+      {
+        "year": 2014,
+        "label": "Shane leaves Seattle for Zurich with her"
+      }
+    ]
+  },
+  {
+    "id": "alex-izzie",
+    "from": "alex",
+    "to": "izzie",
+    "type": "romantic-endgame",
+    "label": "Endgame (off-screen)",
+    "summary": "The bedside wedding, the cancer, the abandonment, the letters. Eventually: a Kansas farmhouse, twins, and quiet.",
+    "startYear": 2006,
+    "endYear": 2020,
+    "events": [
+      {
+        "year": 2006,
+        "label": "Begin a secret relationship while Izzie mourns Denny"
+      },
+      {
+        "year": 2008,
+        "label": "Get serious; tell their friends"
+      },
+      {
+        "year": 2009,
+        "label": "Marry from a borrowed wedding while Izzie undergoes chemo"
+      },
+      {
+        "year": 2010,
+        "label": "Izzie leaves; Alex throws himself into work"
+      },
+      {
+        "year": 2020,
+        "label": "Alex tells everyone via letter that he reunited with Izzie and their twin children in Kansas"
+      }
+    ]
+  },
+  {
+    "id": "alex-rebecca",
+    "from": "alex",
+    "to": "rebecca",
+    "type": "romantic-past",
+    "label": "Complicated",
+    "summary": "The amnesia patient Alex named 'Ava' and then couldn't get free of.",
+    "startYear": 2007,
+    "endYear": 2008,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Alex pulls 'Ava' from the ferry-boat wreckage; she remembers nothing"
+      },
+      {
+        "year": 2008,
+        "label": "She fakes a pregnancy to keep him close; is diagnosed with BPD; involuntarily committed"
+      }
+    ]
+  },
+  {
+    "id": "alex-jo",
+    "from": "alex",
+    "to": "jo",
+    "type": "romantic-past",
+    "label": "Married \u00b7 Divorced by letter",
+    "summary": "Years-long love story that ended without warning: Alex left for Izzie and wrote Jo a goodbye.",
+    "startYear": 2013,
+    "endYear": 2020,
+    "events": [
+      {
+        "year": 2013,
+        "label": "Begin dating after Jo's secret-husband reveal"
+      },
+      {
+        "year": 2017,
+        "label": "Jo accepts Alex's proposal"
+      },
+      {
+        "year": 2019,
+        "label": "Get married after Paul Stadler's death frees Jo from her first marriage"
+      },
+      {
+        "year": 2020,
+        "label": "Alex sends Jo a goodbye letter and divorce papers from Kansas"
+      }
+    ]
+  },
+  {
+    "id": "alex-bailey",
+    "from": "alex",
+    "to": "bailey",
+    "type": "mentor",
+    "label": "Mentor",
+    "summary": "Bailey trained him and never let him forget it.",
+    "startYear": 2005,
+    "endYear": 2020,
+    "events": []
+  },
+  {
+    "id": "izzie-denny",
+    "from": "izzie",
+    "to": "denny",
+    "type": "romantic-past",
+    "label": "Fianc\u00e9 \u00b7 Deceased",
+    "summary": "The patient who proposed minutes before he died. Izzie was never quite the same.",
+    "startYear": 2005,
+    "endYear": 2006,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Denny is admitted to Seattle Grace for a failing heart"
+      },
+      {
+        "year": 2006,
+        "label": "Izzie cuts his LVAD wire to push him up the donor list"
+      },
+      {
+        "year": 2006,
+        "label": "Denny receives the heart, proposes, and dies of a stroke hours later"
+      },
+      {
+        "year": 2009,
+        "label": "Returns to Izzie as a hallucination during her own brain-tumor treatment"
+      }
+    ]
+  },
+  {
+    "id": "izzie-george",
+    "from": "izzie",
+    "to": "george",
+    "type": "romantic-brief",
+    "label": "Affair",
+    "summary": "One night that broke George and Callie's marriage and put a crack through the intern group.",
+    "startYear": 2007,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Sleep together while George is still married to Callie; their friends find out at the wedding video"
+      }
+    ]
+  },
+  {
+    "id": "george-callie",
+    "from": "george",
+    "to": "callie",
+    "type": "romantic-past",
+    "label": "Married \u00b7 Divorced",
+    "summary": "Eloped in Vegas. Came apart the moment George cheated with Izzie.",
+    "startYear": 2006,
+    "endYear": 2008,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Elope in Las Vegas"
+      },
+      {
+        "year": 2007,
+        "label": "Callie discovers the Izzie affair on a wedding-video tape"
+      },
+      {
+        "year": 2008,
+        "label": "Divorce finalized"
+      }
+    ]
+  },
+  {
+    "id": "bailey-tucker",
+    "from": "bailey",
+    "to": "tucker",
+    "type": "romantic-past",
+    "label": "First husband \u00b7 Divorced",
+    "summary": "Father of Tuck Jr. The marriage didn't survive Bailey's career and the ferry-boat year.",
+    "startYear": 2005,
+    "endYear": 2010,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Tucker is in surgery for a head injury when Bailey gives birth to Tuck during the ferry crisis"
+      },
+      {
+        "year": 2010,
+        "label": "Divorce finalized"
+      }
+    ]
+  },
+  {
+    "id": "bailey-eli",
+    "from": "bailey",
+    "to": "eli",
+    "type": "romantic-past",
+    "label": "Briefly dated",
+    "summary": "The nurse who reminded Bailey she was allowed to have a life.",
+    "startYear": 2010,
+    "endYear": 2011,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Begin dating; Bailey self-conscious about dating a nurse"
+      },
+      {
+        "year": 2011,
+        "label": "Break up over a clinical disagreement about a patient's care"
+      }
+    ]
+  },
+  {
+    "id": "bailey-ben",
+    "from": "bailey",
+    "to": "ben",
+    "type": "romantic-endgame",
+    "label": "Married",
+    "summary": "Endgame. Even when he became a firefighter, the marriage stayed solid.",
+    "startYear": 2010,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Ben pursues Bailey openly while she resists"
+      },
+      {
+        "year": 2013,
+        "label": "Married in a small surprise ceremony"
+      },
+      {
+        "year": 2016,
+        "label": "Son William George born; named for Bailey's father and George O'Malley"
+      },
+      {
+        "year": 2018,
+        "label": "Ben quits surgery to become a firefighter; Bailey makes peace with it"
+      }
+    ]
+  },
+  {
+    "id": "bailey-kids",
+    "from": "bailey",
+    "to": "kids-bailey",
+    "type": "family-blood",
+    "label": "Mother of Tuck & William",
+    "summary": "Two boys, two husbands, one mother.",
+    "startYear": 2007,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Tuck Jr. born during the ferry-boat crisis"
+      },
+      {
+        "year": 2016,
+        "label": "William George Bailey Jones born"
+      }
+    ]
+  },
+  {
+    "id": "tucker-kids",
+    "from": "tucker",
+    "to": "kids-bailey",
+    "type": "family-blood",
+    "label": "Father of Tuck",
+    "summary": "Tucker is Tuck Jr.'s biological father; co-parents with Bailey and Ben.",
+    "startYear": 2007,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "ben-kids",
+    "from": "ben",
+    "to": "kids-bailey",
+    "type": "family-chosen",
+    "label": "Stepfather of Tuck \u00b7 Father of William",
+    "summary": "Tuck's stepdad; William's biological father.",
+    "startYear": 2013,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "bailey-webber",
+    "from": "bailey",
+    "to": "webber",
+    "type": "mentor",
+    "label": "Mentor & Friend",
+    "summary": "Webber trained Bailey, then she trained everyone else. The closest thing the hospital has to a parent-child dynamic.",
+    "startYear": 2005,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2005,
+        "label": "Bailey is already Webber's chosen successor in spirit"
+      },
+      {
+        "year": 2015,
+        "label": "Webber endorses Bailey as Chief of Surgery"
+      }
+    ]
+  },
+  {
+    "id": "bailey-jo",
+    "from": "bailey",
+    "to": "jo",
+    "type": "mentor",
+    "label": "Mentor",
+    "summary": "Bailey took Jo seriously when others didn't.",
+    "startYear": 2012,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "webber-adele",
+    "from": "webber",
+    "to": "adele",
+    "type": "romantic-past",
+    "label": "First wife \u00b7 Widowed",
+    "summary": "Decades of marriage, an affair Adele forgave, an Alzheimer's diagnosis that ate the rest.",
+    "startYear": 2005,
+    "endYear": 2013,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Adele diagnosed with early-onset Alzheimer's"
+      },
+      {
+        "year": 2013,
+        "label": "Adele dies of a heart attack the same day Bailey's experimental surgery succeeds"
+      }
+    ]
+  },
+  {
+    "id": "webber-ellis",
+    "from": "webber",
+    "to": "ellis-grey",
+    "type": "romantic-past",
+    "label": "Past affair",
+    "summary": "Decade-long affair while Webber was married to Adele. Produced Maggie.",
+    "startYear": 2005,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 1983,
+        "label": "Affair active during Meredith's childhood"
+      },
+      {
+        "year": 1983,
+        "label": "Ellis pregnant with Maggie; gives the baby up without telling Richard"
+      },
+      {
+        "year": 2007,
+        "label": "Ellis briefly lucid before death; tells Richard 'you should have left her'"
+      }
+    ]
+  },
+  {
+    "id": "webber-catherine",
+    "from": "webber",
+    "to": "catherine",
+    "type": "romantic-endgame",
+    "label": "Married",
+    "summary": "Second-act love story. Catherine pursued; Richard slowly fell. Married in 2014.",
+    "startYear": 2013,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2013,
+        "label": "First slept together at a urology conference"
+      },
+      {
+        "year": 2014,
+        "label": "Marry in a surprise ceremony at Meredith and Derek's planned wedding"
+      },
+      {
+        "year": 2020,
+        "label": "Catherine's chordoma diagnosis tests the marriage"
+      }
+    ]
+  },
+  {
+    "id": "webber-maggie",
+    "from": "webber",
+    "to": "maggie",
+    "type": "family-blood",
+    "label": "Father",
+    "summary": "Discovered in 2014 that he had a daughter he'd never known about.",
+    "startYear": 2014,
+    "endYear": 2023,
+    "events": [
+      {
+        "year": 2014,
+        "label": "Maggie reveals herself as his and Ellis's biological daughter"
+      },
+      {
+        "year": 2023,
+        "label": "Maggie leaves for Chicago; promises to stay in touch"
+      }
+    ]
+  },
+  {
+    "id": "mark-lexie",
+    "from": "mark",
+    "to": "lexie",
+    "type": "romantic-endgame",
+    "label": "'Meant to be' (both deceased)",
+    "summary": "He was 22 years older. He had a daughter her age. He loved her anyway, and finally said so seconds before she died.",
+    "startYear": 2008,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2008,
+        "label": "Sleep together for the first time; she's 23, he's nearly 40"
+      },
+      {
+        "year": 2010,
+        "label": "Mark proposes; Lexie says no"
+      },
+      {
+        "year": 2011,
+        "label": "Break up over Lexie's discomfort with Mark's daughter Sloan"
+      },
+      {
+        "year": 2012,
+        "label": "On the plane just before the crash, Lexie says she still loves him"
+      },
+      {
+        "year": 2012,
+        "label": "Lexie dies pinned beneath wreckage; Mark says 'meant to be'"
+      },
+      {
+        "year": 2012,
+        "label": "Mark dies thirty days later; reunited 'with Lexie' in his last words"
+      }
+    ]
+  },
+  {
+    "id": "mark-addison",
+    "from": "mark",
+    "to": "addison",
+    "type": "romantic-past",
+    "label": "Past affair",
+    "summary": "The affair that broke Mark and Derek; later a brief reconciliation in LA.",
+    "startYear": 2004,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2004,
+        "label": "Affair begins while Derek is in Seattle"
+      },
+      {
+        "year": 2005,
+        "label": "Addison's pregnancy ends; Mark and Addison try to make it work"
+      },
+      {
+        "year": 2007,
+        "label": "Brief reunion in LA; ends amicably"
+      }
+    ]
+  },
+  {
+    "id": "mark-callie",
+    "from": "mark",
+    "to": "callie",
+    "type": "romantic-past",
+    "label": "Co-parents \u00b7 Briefly together",
+    "summary": "Slept together once; produced Sofia. Spent her short life co-parenting.",
+    "startYear": 2010,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Sleep together while Arizona is in Africa"
+      },
+      {
+        "year": 2011,
+        "label": "Sofia born premature; Mark is her biological father"
+      },
+      {
+        "year": 2012,
+        "label": "Mark dies; Callie and Arizona become Sofia's sole parents"
+      }
+    ]
+  },
+  {
+    "id": "mark-sloan-riley",
+    "from": "mark",
+    "to": "sloan-riley",
+    "type": "family-blood",
+    "label": "Father",
+    "summary": "Discovered in 2009 that he had a teenage daughter. Took her in; lost her again.",
+    "startYear": 2009,
+    "endYear": 2010,
+    "events": [
+      {
+        "year": 2009,
+        "label": "Sloan shows up on Mark's doorstep, pregnant"
+      },
+      {
+        "year": 2010,
+        "label": "Sloan gives the baby up for adoption and leaves Seattle"
+      }
+    ]
+  },
+  {
+    "id": "mark-sofia",
+    "from": "mark",
+    "to": "sofia",
+    "type": "family-blood",
+    "label": "Biological father",
+    "summary": "Mark fathered Sofia with Callie; never got to see her past her first year.",
+    "startYear": 2011,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2011,
+        "label": "Sofia born"
+      },
+      {
+        "year": 2012,
+        "label": "Mark dies in the plane crash aftermath"
+      }
+    ]
+  },
+  {
+    "id": "callie-erica",
+    "from": "callie",
+    "to": "erica",
+    "type": "romantic-past",
+    "label": "Briefly together",
+    "summary": "Callie's first relationship with a woman. Erica walked out of the parking lot mid-conversation and never came back.",
+    "startYear": 2007,
+    "endYear": 2008,
+    "events": [
+      {
+        "year": 2008,
+        "label": "First kiss in a hospital hallway"
+      },
+      {
+        "year": 2008,
+        "label": "Erica walks out after a fight about the Denny LVAD scandal; never seen again"
+      }
+    ]
+  },
+  {
+    "id": "callie-arizona",
+    "from": "callie",
+    "to": "arizona",
+    "type": "romantic-endgame",
+    "label": "Married \u00b7 Divorced",
+    "summary": "Calzona. Daughter Sofia. The romance that defined the show's middle decade \u2014 until it didn't.",
+    "startYear": 2009,
+    "endYear": 2016,
+    "events": [
+      {
+        "year": 2009,
+        "label": "Meet in a hospital bathroom; Arizona kisses Callie"
+      },
+      {
+        "year": 2011,
+        "label": "Sofia born premature after Callie's car crash"
+      },
+      {
+        "year": 2011,
+        "label": "Marry in a non-legal ceremony officiated by Bailey at the hospital"
+      },
+      {
+        "year": 2012,
+        "label": "Plane crash; Arizona's leg is amputated"
+      },
+      {
+        "year": 2013,
+        "label": "Arizona has an affair with Lauren Boswell; the marriage cracks"
+      },
+      {
+        "year": 2015,
+        "label": "Divorce finalized; brutal custody fight"
+      },
+      {
+        "year": 2016,
+        "label": "Callie moves to NYC with Sofia and Penny"
+      }
+    ]
+  },
+  {
+    "id": "callie-penny",
+    "from": "callie",
+    "to": "penny",
+    "type": "romantic-past",
+    "label": "Moved away together",
+    "summary": "Callie chose Penny over staying in Seattle near Sofia; the relationship took Callie off the show.",
+    "startYear": 2015,
+    "endYear": 2016,
+    "events": [
+      {
+        "year": 2015,
+        "label": "Callie introduces Penny to Meredith at her dinner party; Meredith recognizes her as the resident on Derek's case"
+      },
+      {
+        "year": 2016,
+        "label": "Move to NYC together"
+      }
+    ]
+  },
+  {
+    "id": "callie-sofia",
+    "from": "callie",
+    "to": "sofia",
+    "type": "family-blood",
+    "label": "Biological mother",
+    "summary": "Birth mother of Sofia.",
+    "startYear": 2011,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "arizona-sofia",
+    "from": "arizona",
+    "to": "sofia",
+    "type": "family-chosen",
+    "label": "Mother (non-biological)",
+    "summary": "Adopted Sofia; co-parented her through the divorce.",
+    "startYear": 2011,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "arizona-carina",
+    "from": "arizona",
+    "to": "carina",
+    "type": "romantic-past",
+    "label": "Briefly dated",
+    "summary": "Brief late-S14 relationship; a soft landing for Arizona's departure storyline.",
+    "startYear": 2018,
+    "endYear": 2018,
+    "events": []
+  },
+  {
+    "id": "lexie-thatcher",
+    "from": "lexie",
+    "to": "thatcher",
+    "type": "family-blood",
+    "label": "Father",
+    "summary": "Daddy's girl. His relapse after Susan's death broke her heart.",
+    "startYear": 2007,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Thatcher relapses after Susan's death; Lexie tries to keep him sober"
+      }
+    ]
+  },
+  {
+    "id": "lexie-susan-grey",
+    "from": "lexie",
+    "to": "susan-grey",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "Lexie's mother. Her sudden death from a hiccup-induced hospital admission devastated the Grey family.",
+    "startYear": 2007,
+    "endYear": 2007,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Susan dies; Lexie's family fractures"
+      }
+    ]
+  },
+  {
+    "id": "lexie-sloan-riley",
+    "from": "lexie",
+    "to": "sloan-riley",
+    "type": "platonic-deep",
+    "label": "Roommate & near-stepdaughter",
+    "summary": "Mark moved his teenage daughter in with Lexie; they coexisted awkwardly.",
+    "startYear": 2009,
+    "endYear": 2010,
+    "events": []
+  },
+  {
+    "id": "lexie-george",
+    "from": "lexie",
+    "to": "george",
+    "type": "romantic-brief",
+    "label": "Briefly together",
+    "summary": "George was her secret crush; they got together right before he enlisted.",
+    "startYear": 2008,
+    "endYear": 2009,
+    "events": [
+      {
+        "year": 2009,
+        "label": "George dies the day he is supposed to ship out with the Army"
+      }
+    ]
+  },
+  {
+    "id": "jackson-april",
+    "from": "jackson",
+    "to": "april",
+    "type": "romantic-endgame",
+    "label": "Endgame (eventually)",
+    "summary": "Japril. Married, divorced, eventually reunited in Boston.",
+    "startYear": 2013,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2013,
+        "label": "Sleep together after a tense intern-exam study weekend"
+      },
+      {
+        "year": 2014,
+        "label": "Jackson interrupts April's wedding to Matthew Taylor; they elope"
+      },
+      {
+        "year": 2015,
+        "label": "Son Samuel born with osteogenesis imperfecta; lives only hours"
+      },
+      {
+        "year": 2017,
+        "label": "Daughter Harriet born during a Pacific Northwest storm"
+      },
+      {
+        "year": 2018,
+        "label": "Divorce finalized"
+      },
+      {
+        "year": 2021,
+        "label": "Jackson asks April to come to Boston with him; she eventually goes"
+      }
+    ]
+  },
+  {
+    "id": "jackson-stephanie",
+    "from": "jackson",
+    "to": "stephanie",
+    "type": "romantic-past",
+    "label": "Past relationship",
+    "summary": "Pre-Japril. Stephanie was at his side until he ran off the altar.",
+    "startYear": 2012,
+    "endYear": 2014,
+    "events": [
+      {
+        "year": 2014,
+        "label": "Jackson stops April's wedding; Stephanie sees it happen in real time"
+      }
+    ]
+  },
+  {
+    "id": "jackson-maggie",
+    "from": "jackson",
+    "to": "maggie",
+    "type": "romantic-past",
+    "label": "Briefly together",
+    "summary": "A late-2010s romance that started controversially (Jackson's mother had married Maggie's father \u2014 making them step-siblings on paper).",
+    "startYear": 2018,
+    "endYear": 2020,
+    "events": [
+      {
+        "year": 2018,
+        "label": "First kiss; navigating that they are technically step-siblings via Catherine and Richard"
+      },
+      {
+        "year": 2020,
+        "label": "Break up over Jackson's spiritual journey post-COVID"
+      }
+    ]
+  },
+  {
+    "id": "jackson-catherine",
+    "from": "jackson",
+    "to": "catherine",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "Catherine raised Jackson largely as a single mother; the bond is fierce, occasionally suffocating.",
+    "startYear": 2010,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2018,
+        "label": "They rename the family foundation together after the Harper Avery scandal"
+      }
+    ]
+  },
+  {
+    "id": "jackson-harper",
+    "from": "jackson",
+    "to": "harper-avery",
+    "type": "family-blood",
+    "label": "Grandfather",
+    "summary": "Award namesake; Jackson grew up in his shadow and won the award himself in 2017 just before the harassment scandal broke.",
+    "startYear": 2013,
+    "endYear": 2018,
+    "events": [
+      {
+        "year": 2018,
+        "label": "Harper Avery posthumously exposed as a serial harasser"
+      }
+    ]
+  },
+  {
+    "id": "jackson-robert",
+    "from": "jackson",
+    "to": "robert-avery",
+    "type": "family-blood",
+    "label": "Biological father",
+    "summary": "Estranged. Jackson found him running a diner in Montana in 2014.",
+    "startYear": 2014,
+    "endYear": 2014,
+    "events": []
+  },
+  {
+    "id": "jackson-harriet",
+    "from": "jackson",
+    "to": "harriet",
+    "type": "family-blood",
+    "label": "Father",
+    "summary": "Harriet was born in a storm; Jackson delivered her himself.",
+    "startYear": 2017,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "april-matthew",
+    "from": "april",
+    "to": "matthew",
+    "type": "romantic-endgame",
+    "label": "Married twice",
+    "summary": "Engaged, then jilted, then both married others, then both single, then married for real.",
+    "startYear": 2012,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2014,
+        "label": "April leaves Matthew at the altar to elope with Jackson"
+      },
+      {
+        "year": 2018,
+        "label": "Matthew's wife Karin dies in childbirth; April and Matthew reconnect"
+      },
+      {
+        "year": 2018,
+        "label": "Married"
+      }
+    ]
+  },
+  {
+    "id": "april-harriet",
+    "from": "april",
+    "to": "harriet",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "Birth mother of Harriet.",
+    "startYear": 2017,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "april-arizona",
+    "from": "april",
+    "to": "arizona",
+    "type": "platonic-deep",
+    "label": "Friends",
+    "summary": "Roomed together post-divorce(s); the rare close female friendship outside the Mer-Cristina template.",
+    "startYear": 2014,
+    "endYear": 2018,
+    "events": []
+  },
+  {
+    "id": "owen-amelia",
+    "from": "owen",
+    "to": "amelia",
+    "type": "romantic-past",
+    "label": "Married \u00b7 Divorced",
+    "summary": "Quickie marriage during a low point for both; doomed by the tumor (literally \u2014 see Amelia's bio).",
+    "startYear": 2014,
+    "endYear": 2017,
+    "events": [
+      {
+        "year": 2016,
+        "label": "Marry on a hill at Meredith's house"
+      },
+      {
+        "year": 2017,
+        "label": "Amelia's 10-cm brain tumor discovered; her decisions to that point reframed"
+      },
+      {
+        "year": 2017,
+        "label": "Divorce filed"
+      }
+    ]
+  },
+  {
+    "id": "owen-teddy",
+    "from": "owen",
+    "to": "teddy",
+    "type": "romantic-endgame",
+    "label": "Endgame",
+    "summary": "A decade of will-they-won't-they. Got engaged twice; Koracick's affair revealed at the altar the first time.",
+    "startYear": 2018,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2018,
+        "label": "Daughter Allison conceived during a fling at Megan's beach"
+      },
+      {
+        "year": 2019,
+        "label": "Allison born on a hotel bathroom floor in Owen's mother's bathrobe"
+      },
+      {
+        "year": 2020,
+        "label": "Koracick affair revealed at the planned wedding; Owen calls it off"
+      },
+      {
+        "year": 2021,
+        "label": "Marry in a small ceremony"
+      },
+      {
+        "year": 2024,
+        "label": "Marriage tested by a series of disagreements over Owen's career direction"
+      },
+      {
+        "year": 2026,
+        "label": "Bridge collapse: Teddy spends the day not knowing if Owen survived; meets him in the scrub room afterward"
+      },
+      {
+        "year": 2026,
+        "label": "Teddy chooses Owen and the kids over the Paris job \u2014 then Owen tells her to take it and they're all going with her"
+      },
+      {
+        "year": 2026,
+        "label": "Walk out of Grey Sloan together for the last time"
+      }
+    ]
+  },
+  {
+    "id": "owen-megan",
+    "from": "owen",
+    "to": "megan",
+    "type": "family-blood",
+    "label": "Sister",
+    "summary": "Lost her for ten years; found her alive.",
+    "startYear": 2008,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2007,
+        "label": "Megan's helicopter shot down in Iraq; presumed dead"
+      },
+      {
+        "year": 2017,
+        "label": "Found alive after a decade in captivity"
+      }
+    ]
+  },
+  {
+    "id": "owen-kids",
+    "from": "owen",
+    "to": "kids-owen-teddy",
+    "type": "family-blood",
+    "label": "Father of Leo & Allison",
+    "summary": "Leo: adopted from Betty Nelson during the foster-storyline. Allison: biological with Teddy.",
+    "startYear": 2018,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2018,
+        "label": "Owen takes Leo in as a foster placement; eventually adopts"
+      },
+      {
+        "year": 2019,
+        "label": "Allison born"
+      },
+      {
+        "year": 2026,
+        "label": "Whole family relocates to Paris with Teddy"
+      }
+    ]
+  },
+  {
+    "id": "owen-riggs",
+    "from": "owen",
+    "to": "riggs",
+    "type": "rival",
+    "label": "Best friend \u2192 enemy \u2192 peace",
+    "summary": "Owen blamed Riggs for the Iraq helicopter flight that killed Megan \u2014 until she came back.",
+    "startYear": 2016,
+    "endYear": 2018,
+    "events": [
+      {
+        "year": 2016,
+        "label": "Owen punches Riggs in the hospital lobby"
+      },
+      {
+        "year": 2017,
+        "label": "Megan returns; the two men make peace over their shared grief"
+      }
+    ]
+  },
+  {
+    "id": "teddy-henry",
+    "from": "teddy",
+    "to": "henry",
+    "type": "romantic-past",
+    "label": "Husband \u00b7 Widowed",
+    "summary": "Married him so he could get insurance; fell in love with him along the way.",
+    "startYear": 2010,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Marry at the courthouse so Henry can get insurance for his VHL"
+      },
+      {
+        "year": 2011,
+        "label": "Realize they actually love each other"
+      },
+      {
+        "year": 2012,
+        "label": "Henry dies on the table; Teddy is told mid-operation she was working on a different patient"
+      }
+    ]
+  },
+  {
+    "id": "teddy-koracick",
+    "from": "teddy",
+    "to": "koracick",
+    "type": "romantic-past",
+    "label": "Affair",
+    "summary": "Years-long on-and-off; finally exploded at her near-wedding to Owen.",
+    "startYear": 2018,
+    "endYear": 2020,
+    "events": [
+      {
+        "year": 2020,
+        "label": "Koracick affair is exposed via voicemail at Teddy's wedding to Owen"
+      }
+    ]
+  },
+  {
+    "id": "teddy-kids",
+    "from": "teddy",
+    "to": "kids-owen-teddy",
+    "type": "family-blood",
+    "label": "Mother of Leo & Allison",
+    "summary": "Leo by adoption with Owen; Allison biological.",
+    "startYear": 2019,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2026,
+        "label": "Family relocates to Paris with Owen"
+      }
+    ]
+  },
+  {
+    "id": "catherine-robert",
+    "from": "catherine",
+    "to": "robert-avery",
+    "type": "romantic-past",
+    "label": "First husband",
+    "summary": "Father of Jackson; long-divorced.",
+    "startYear": 2010,
+    "endYear": 2010,
+    "events": []
+  },
+  {
+    "id": "robert-harper",
+    "from": "robert-avery",
+    "to": "harper-avery",
+    "type": "family-blood",
+    "label": "Father",
+    "summary": "Robert is Harper Avery's son; estranged from the surgical empire.",
+    "startYear": 2013,
+    "endYear": 2014,
+    "events": []
+  },
+  {
+    "id": "amelia-link",
+    "from": "amelia",
+    "to": "link",
+    "type": "romantic-past",
+    "label": "Co-parents",
+    "summary": "Brought together by a brain-tumor reveal and a one-night-stand pregnancy; ended at his attempted proposal.",
+    "startYear": 2018,
+    "endYear": 2021,
+    "events": [
+      {
+        "year": 2019,
+        "label": "Son Scout born"
+      },
+      {
+        "year": 2021,
+        "label": "Link proposes; Amelia says no"
+      }
+    ]
+  },
+  {
+    "id": "amelia-kai",
+    "from": "amelia",
+    "to": "kai",
+    "type": "romantic-past",
+    "label": "Briefly together",
+    "summary": "First non-binary relationship for Amelia, ended over the question of more kids.",
+    "startYear": 2021,
+    "endYear": 2022,
+    "events": [
+      {
+        "year": 2022,
+        "label": "Break up over Amelia wanting another child and Kai not wanting any"
+      }
+    ]
+  },
+  {
+    "id": "amelia-scout",
+    "from": "amelia",
+    "to": "scout",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "Scout, named for Derek's middle name.",
+    "startYear": 2019,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "amelia-carolyn",
+    "from": "amelia",
+    "to": "carolyn-shepherd",
+    "type": "family-blood",
+    "label": "Mother",
+    "summary": "Youngest of the Shepherd siblings.",
+    "startYear": 2014,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "amelia-lucas",
+    "from": "amelia",
+    "to": "lucas",
+    "type": "family-blood",
+    "label": "Aunt",
+    "summary": "Lucas is Amelia's nephew (her sister Kathleen's son).",
+    "startYear": 2022,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "maggie-deluca",
+    "from": "maggie",
+    "to": "deluca",
+    "type": "romantic-brief",
+    "label": "Briefly together",
+    "summary": "Maggie's first real Grey-Sloan relationship; ended over her age-anxiety about him.",
+    "startYear": 2016,
+    "endYear": 2016,
+    "events": []
+  },
+  {
+    "id": "maggie-winston",
+    "from": "maggie",
+    "to": "winston",
+    "type": "romantic-past",
+    "label": "Married \u00b7 Divorced",
+    "summary": "Met at a conference in 2019; long-distance through COVID; married 2021; divorced 2023.",
+    "startYear": 2019,
+    "endYear": 2023,
+    "events": [
+      {
+        "year": 2019,
+        "label": "Meet at a cardio conference"
+      },
+      {
+        "year": 2020,
+        "label": "Long-distance through COVID over Zoom"
+      },
+      {
+        "year": 2021,
+        "label": "Marry at Meredith's house"
+      },
+      {
+        "year": 2023,
+        "label": "Maggie files for divorce; takes a job in Chicago"
+      },
+      {
+        "year": 2026,
+        "label": "Winston, long divorced from Maggie, quietly starts seeing intern Jules Millin"
+      }
+    ]
+  },
+  {
+    "id": "maggie-ellis",
+    "from": "maggie",
+    "to": "ellis-grey",
+    "type": "family-blood",
+    "label": "Biological mother",
+    "summary": "Ellis gave her up at birth; Maggie traced her later.",
+    "startYear": 1983,
+    "endYear": 2007,
+    "events": []
+  },
+  {
+    "id": "maggie-riggs",
+    "from": "maggie",
+    "to": "riggs",
+    "type": "romantic-brief",
+    "label": "Briefly together",
+    "summary": "Late-S13 fling; mostly a counterpoint to Meredith's storyline.",
+    "startYear": 2017,
+    "endYear": 2017,
+    "events": []
+  },
+  {
+    "id": "jo-deluca",
+    "from": "jo",
+    "to": "deluca",
+    "type": "romantic-brief",
+    "label": "One misunderstood night",
+    "summary": "Karev caught DeLuca leaving Jo's place and beat him nearly to death \u2014 but nothing had happened.",
+    "startYear": 2016,
+    "endYear": 2016,
+    "events": [
+      {
+        "year": 2016,
+        "label": "DeLuca walks Jo home drunk; Alex finds them and beats DeLuca senseless"
+      }
+    ]
+  },
+  {
+    "id": "jo-link",
+    "from": "jo",
+    "to": "link",
+    "type": "romantic-endgame",
+    "label": "Together",
+    "summary": "Second-chance love after both of their endgames fell through.",
+    "startYear": 2022,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2022,
+        "label": "Move in together as roommates with Luna; quickly turn romantic"
+      },
+      {
+        "year": 2024,
+        "label": "Son Charlie born"
+      }
+    ]
+  },
+  {
+    "id": "jo-kids",
+    "from": "jo",
+    "to": "kids-jo",
+    "type": "family-blood",
+    "label": "Mother of Luna & Charlie",
+    "summary": "Single-mom adoption (Luna) and biological motherhood (Charlie).",
+    "startYear": 2022,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2022,
+        "label": "Adopts Luna"
+      },
+      {
+        "year": 2024,
+        "label": "Charlie born with Link"
+      }
+    ]
+  },
+  {
+    "id": "link-kids-jo",
+    "from": "link",
+    "to": "kids-jo",
+    "type": "family-blood",
+    "label": "Father of Charlie",
+    "summary": "Link is Charlie's biological father; co-parents Luna with Jo.",
+    "startYear": 2024,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "link-scout",
+    "from": "link",
+    "to": "scout",
+    "type": "family-blood",
+    "label": "Father",
+    "summary": "Co-parents Scout with Amelia.",
+    "startYear": 2019,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "levi-nico",
+    "from": "levi",
+    "to": "nico",
+    "type": "romantic-past",
+    "label": "On and off",
+    "summary": "Levi's first relationship; the on-screen coming-out arc of the show's mid-2010s era.",
+    "startYear": 2018,
+    "endYear": 2021,
+    "events": [
+      {
+        "year": 2018,
+        "label": "First kiss in a hospital elevator"
+      },
+      {
+        "year": 2019,
+        "label": "Levi comes out at his cousin's bar mitzvah"
+      },
+      {
+        "year": 2021,
+        "label": "Break up after Nico won't move in"
+      }
+    ]
+  },
+  {
+    "id": "levi-mika",
+    "from": "levi",
+    "to": "mika",
+    "type": "platonic-deep",
+    "label": "Confidants",
+    "summary": "Roommates and best work-friends through Levi's late-show breakdown.",
+    "startYear": 2022,
+    "endYear": 2024,
+    "events": []
+  },
+  {
+    "id": "deluca-carina",
+    "from": "deluca",
+    "to": "carina",
+    "type": "family-blood",
+    "label": "Siblings",
+    "summary": "Andrew and his older sister Carina. Lost their father (and each other) by 2021.",
+    "startYear": 2017,
+    "endYear": 2021,
+    "events": [
+      {
+        "year": 2021,
+        "label": "Andrew dies; Carina is at his side"
+      }
+    ]
+  },
+  {
+    "id": "deluca-sam-bello",
+    "from": "deluca",
+    "to": "sam-bello",
+    "type": "romantic-past",
+    "label": "Briefly together",
+    "summary": "Sam was forced to flee to avoid ICE; the relationship ended on a tarmac.",
+    "startYear": 2017,
+    "endYear": 2018,
+    "events": [
+      {
+        "year": 2018,
+        "label": "Sam leaves for Switzerland to escape ICE"
+      }
+    ]
+  },
+  {
+    "id": "riggs-megan",
+    "from": "riggs",
+    "to": "megan",
+    "type": "romantic-endgame",
+    "label": "Endgame",
+    "summary": "Reunited with the ex-fianc\u00e9e he'd presumed dead for a decade. Left the show together.",
+    "startYear": 2017,
+    "endYear": 2018,
+    "events": [
+      {
+        "year": 2017,
+        "label": "Megan returns alive; Riggs is summoned to her bedside"
+      },
+      {
+        "year": 2018,
+        "label": "Riggs moves to LA to be with her and adopted son Farouk"
+      }
+    ]
+  },
+  {
+    "id": "koracick-amelia",
+    "from": "koracick",
+    "to": "amelia",
+    "type": "mentor",
+    "label": "Mentor \u2192 friend",
+    "summary": "Operated on Amelia's tumor; also slept with her once, ages ago.",
+    "startYear": 2017,
+    "endYear": 2021,
+    "events": [
+      {
+        "year": 2017,
+        "label": "Performs the surgery to remove Amelia's meningioma"
+      }
+    ]
+  },
+  {
+    "id": "hayes-meredith",
+    "from": "hayes",
+    "to": "meredith",
+    "type": "romantic-brief",
+    "label": "Almost",
+    "summary": "Mutual interest that never quite landed. Hayes left for Ireland before anything started.",
+    "startYear": 2019,
+    "endYear": 2021,
+    "events": [
+      {
+        "year": 2020,
+        "label": "Cares for Meredith during her COVID coma"
+      },
+      {
+        "year": 2021,
+        "label": "Leaves for Ireland with his sons"
+      }
+    ]
+  },
+  {
+    "id": "hayes-alex",
+    "from": "hayes",
+    "to": "alex",
+    "type": "platonic-deep",
+    "label": "Inherited Karev's job",
+    "summary": "Hayes effectively replaced Karev in peds; their off-screen friendship is implied via Hayes's brief Karev mentions.",
+    "startYear": 2019,
+    "endYear": 2020,
+    "events": []
+  },
+  {
+    "id": "simone-lucas",
+    "from": "simone",
+    "to": "lucas",
+    "type": "romantic-endgame",
+    "label": "Current",
+    "summary": "On-and-off intern romance. She jilted Trey at the altar for him.",
+    "startYear": 2023,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2023,
+        "label": "Simone leaves Trey at the altar; runs back to Lucas"
+      }
+    ]
+  },
+  {
+    "id": "blue-jules",
+    "from": "blue",
+    "to": "jules",
+    "type": "romantic-past",
+    "label": "On and off",
+    "summary": "Intern-class romance with sharp edges.",
+    "startYear": 2023,
+    "endYear": 2024,
+    "events": []
+  },
+  {
+    "id": "thatcher-ellis",
+    "from": "thatcher",
+    "to": "ellis-grey",
+    "type": "romantic-past",
+    "label": "First marriage",
+    "summary": "Married while Ellis was a surgical resident; left her after her affair with Webber.",
+    "startYear": 2005,
+    "endYear": 2007,
+    "events": []
+  },
+  {
+    "id": "thatcher-susan",
+    "from": "thatcher",
+    "to": "susan-grey",
+    "type": "romantic-past",
+    "label": "Second wife \u00b7 Widowed",
+    "summary": "Thatcher's second marriage; ended with Susan's sudden death in 2007.",
+    "startYear": 2006,
+    "endYear": 2007,
+    "events": []
+  },
+  {
+    "id": "harper-catherine",
+    "from": "harper-avery",
+    "to": "catherine",
+    "type": "family-chosen",
+    "label": "Father-in-law",
+    "summary": "Award-empire patriarch; once tried to fire Catherine for marrying his son.",
+    "startYear": 2013,
+    "endYear": 2018,
+    "events": []
+  },
+  {
+    "id": "meredith-sadie",
+    "from": "meredith",
+    "to": "sadie",
+    "type": "platonic-deep",
+    "label": "Old friends",
+    "summary": "Meredith met 'Death' on her year-off in Europe; she nicknamed her Sadie and brought her to Seattle Grace as an intern.",
+    "startYear": 2003,
+    "endYear": 2009,
+    "events": [
+      {
+        "year": 2003,
+        "label": "Meet on Meredith's year-off in Europe; nickname each other 'Death' and 'Die'"
+      },
+      {
+        "year": 2008,
+        "label": "Meredith helps Sadie join the new intern class"
+      },
+      {
+        "year": 2009,
+        "label": "Sadie washes out of the program after the Chief discovers her transcript was forged"
+      }
+    ]
+  },
+  {
+    "id": "shane-heather",
+    "from": "shane",
+    "to": "heather",
+    "type": "rival",
+    "label": "Sent her to the basement",
+    "summary": "Shane sent Heather into the flooded basement on the night of the superstorm; she was electrocuted and never recovered. The guilt haunted him for the rest of his time at Grey Sloan.",
+    "startYear": 2012,
+    "endYear": 2013,
+    "events": [
+      {
+        "year": 2013,
+        "label": "Shane sends Heather to fetch a CT result from the basement during the superstorm; she is electrocuted by a downed wire"
+      },
+      {
+        "year": 2013,
+        "label": "Heather dies; Shane spirals into guilt"
+      }
+    ]
+  },
+  {
+    "id": "bailey-henry",
+    "from": "bailey",
+    "to": "henry",
+    "type": "platonic-deep",
+    "label": "His doctor; her friend",
+    "summary": "Bailey was Henry's surgeon for years before Teddy arrived. She introduced them, and stayed close to him.",
+    "startYear": 2010,
+    "endYear": 2012,
+    "events": [
+      {
+        "year": 2010,
+        "label": "Bailey suggests Henry marry someone for insurance; he asks Teddy"
+      }
+    ]
+  },
+  {
+    "id": "simone-mika",
+    "from": "simone",
+    "to": "mika",
+    "type": "platonic-deep",
+    "label": "Intern-class friends",
+    "summary": "Roommates and confidants in the new intern cohort.",
+    "startYear": 2022,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "blue-simone",
+    "from": "blue",
+    "to": "simone",
+    "type": "rival",
+    "label": "Intern-class rival",
+    "summary": "Sparred for top of the intern class throughout S19+.",
+    "startYear": 2022,
+    "endYear": null,
+    "events": []
+  },
+  {
+    "id": "levi-bailey",
+    "from": "levi",
+    "to": "bailey",
+    "type": "mentor",
+    "label": "Mentor",
+    "summary": "Bailey, like everyone, both terrified and shaped Levi.",
+    "startYear": 2017,
+    "endYear": 2024,
+    "events": []
+  },
+  {
+    "id": "winston-jules",
+    "from": "winston",
+    "to": "jules",
+    "type": "romantic-brief",
+    "label": "Secretly together",
+    "summary": "Quiet S22 romance between Winston (attending) and Jules (intern). Ben Warren is the first to spot them.",
+    "startYear": 2026,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2026,
+        "label": "Begin a secret relationship after the bridge-collapse all-nighter"
+      },
+      {
+        "year": 2026,
+        "label": "Share a kiss in an on-call room; Ben spots them leaving separately"
+      }
+    ]
+  },
+  {
+    "id": "wes-simone",
+    "from": "wes",
+    "to": "simone",
+    "type": "romantic-brief",
+    "label": "Newly dating",
+    "summary": "Wes pursued Simone gently through S22; she said yes the night of the bridge collapse \u2014 though her mind was still on Lucas.",
+    "startYear": 2026,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2026,
+        "label": "Wes asks Simone to date him properly; she agrees, but her smile fades as they walk off"
+      }
+    ]
+  },
+  {
+    "id": "amelia-toni",
+    "from": "amelia",
+    "to": "toni",
+    "type": "romantic-past",
+    "label": "Brief affair",
+    "summary": "Amelia's S22 affair with a married plastic surgeon. Ended in the finale when Toni came to commit and found Cass on Amelia's couch.",
+    "startYear": 2026,
+    "endYear": 2026,
+    "events": [
+      {
+        "year": 2026,
+        "label": "Affair begins while Toni is still married to Celine"
+      },
+      {
+        "year": 2026,
+        "label": "Toni tells Celine she wants out; comes to Amelia's to commit \u2014 finds Cass already there in lingerie. Walks out."
+      }
+    ]
+  },
+  {
+    "id": "amelia-cass",
+    "from": "amelia",
+    "to": "cass",
+    "type": "romantic-brief",
+    "label": "Just starting",
+    "summary": "Amelia's new direction after the Toni affair imploded \u2014 quietly began with Cass on the same night.",
+    "startYear": 2026,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2026,
+        "label": "Cass is at Amelia's the night Toni shows up to commit"
+      }
+    ]
+  },
+  {
+    "id": "cass-meredith",
+    "from": "cass",
+    "to": "meredith",
+    "type": "platonic-deep",
+    "label": "Saved Nick together",
+    "summary": "Cass led Nick Marsh's trauma intake during the bridge collapse and trusted Meredith's instincts on his renal artery.",
+    "startYear": 2026,
+    "endYear": null,
+    "events": [
+      {
+        "year": 2026,
+        "label": "Cass and Meredith work together to save Nick after the bridge collapse"
+      }
+    ]
+  },
+  {
+    "id": "toni-ben",
+    "from": "toni",
+    "to": "ben",
+    "type": "mentor",
+    "label": "Plastics attending",
+    "summary": "Toni is Ben Warren's plastic-surgery-fellowship attending in S22.",
+    "startYear": 2025,
+    "endYear": null,
+    "events": []
+  }
+]

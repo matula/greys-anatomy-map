@@ -1,0 +1,1864 @@
+[
+  {
+    "id": "meredith",
+    "name": "Meredith Grey",
+    "actor": "Ellen Pompeo",
+    "role": "General Surgeon \u2192 Chief of General Surgery",
+    "firstYear": 2005,
+    "lastYear": null,
+    "status": "alive",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "Daughter of the legendary Ellis Grey. Stumbled out of a one-night stand on day one of her intern year and into the orbit of the show's central love story. Survived a bomb, a drowning, a hospital shooting, a plane crash, and COVID; lost her husband, her sister, two best friends, and her mother along the way. Won the Catherine Fox Award and moved most of her practice to Boston in 2023, but still pops in to Grey Sloan.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "First day as an intern at Seattle Grace Hospital"
+      },
+      {
+        "year": 2006,
+        "label": "Reaches into a body cavity to defuse a bomb"
+      },
+      {
+        "year": 2007,
+        "label": "Pulled lifeless from Elliott Bay after the ferry boat crash; revived"
+      },
+      {
+        "year": 2010,
+        "label": "Shot in the abdomen during the hospital shooting; loses a pregnancy"
+      },
+      {
+        "year": 2011,
+        "label": "Earns her board certification; adopts Zola"
+      },
+      {
+        "year": 2012,
+        "label": "Survives the plane crash that kills Lexie and Mark"
+      },
+      {
+        "year": 2014,
+        "label": "Gives birth to daughter Ellis on her bathroom floor during a citywide blackout"
+      },
+      {
+        "year": 2015,
+        "label": "Widowed when Derek is killed in a car accident"
+      },
+      {
+        "year": 2017,
+        "label": "Wins the Harper Avery Award (later renamed the Catherine Fox Award)"
+      },
+      {
+        "year": 2019,
+        "label": "Convicted of insurance fraud for treating an undocumented child under Bailey's daughter's name; loses her medical license briefly"
+      },
+      {
+        "year": 2020,
+        "label": "Contracts COVID-19; spends much of S17 in a beach-coma dreamscape"
+      },
+      {
+        "year": 2023,
+        "label": "Moves most of her work to a Parkinson's research lab in Boston"
+      }
+    ]
+  },
+  {
+    "id": "derek",
+    "name": "Derek Shepherd",
+    "actor": "Patrick Dempsey",
+    "role": "Head of Neurosurgery \u2192 Chief of Surgery",
+    "firstYear": 2005,
+    "lastYear": 2015,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "McDreamy. World-class neurosurgeon from a big Catholic family in Connecticut, on the run from a failing marriage to Addison when he met an intern named Meredith Grey at Joe's bar. Briefly Chief of Surgery; later helped lead the federal brain-mapping initiative. Died in 2015 after stopping to help at a roadside accident and being struck by a semi.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "Arrives at Seattle Grace as the new attending neurosurgeon"
+      },
+      {
+        "year": 2008,
+        "label": "Loses a patient on the operating table; spirals into a brief depression in his trailer"
+      },
+      {
+        "year": 2009,
+        "label": "Operates on Izzie's brain tumor; later named Chief of Surgery"
+      },
+      {
+        "year": 2012,
+        "label": "Plane crash; severe hand injury threatens his career"
+      },
+      {
+        "year": 2014,
+        "label": "Takes a presidential brain-mapping job in D.C.; commutes"
+      },
+      {
+        "year": 2015,
+        "label": "Killed in a car accident en route to the airport"
+      }
+    ]
+  },
+  {
+    "id": "cristina",
+    "name": "Cristina Yang",
+    "actor": "Sandra Oh",
+    "role": "Cardiothoracic Surgeon",
+    "firstYear": 2005,
+    "lastYear": 2014,
+    "status": "left",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "Brilliant, prickly, competitive cardiothoracic prodigy who became Meredith's 'person.' Engaged to her mentor Preston Burke (who left her at the altar), later married to Owen Hunt (which ended over her refusal to have children). Survived the shooting, the plane crash, and a near-fatal car bombing in Sudan. Took over Burke's research institute in Zurich in 2014 and left for good.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "Begins her intern year at Seattle Grace"
+      },
+      {
+        "year": 2010,
+        "label": "Operates at gunpoint during the hospital shooting"
+      },
+      {
+        "year": 2011,
+        "label": "Has an abortion in S8 over Owen's objections"
+      },
+      {
+        "year": 2012,
+        "label": "Survives the plane crash with PTSD"
+      },
+      {
+        "year": 2014,
+        "label": "Inherits Preston Burke's Zurich institute and leaves Seattle for good"
+      }
+    ]
+  },
+  {
+    "id": "alex",
+    "name": "Alex Karev",
+    "actor": "Justin Chambers",
+    "role": "Pediatric Surgeon \u2192 Chief of Pediatric Surgery \u2192 Interim Chief",
+    "firstYear": 2005,
+    "lastYear": 2020,
+    "status": "left",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "Started as the show's loudmouth bully and ended as one of its most quietly loyal characters \u2014 Meredith's actual 'person' in Cristina's absence. Pediatric surgeon, briefly Chief of Surgery, husband (twice). Left in 2020 via a letter, having reunited with Izzie Stevens in Kansas and the twins he never knew he had.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "Begins his intern year, arrogant and pre-bruised"
+      },
+      {
+        "year": 2007,
+        "label": "Pulls 'Ava' (Rebecca Pope) from the ferry-boat wreckage"
+      },
+      {
+        "year": 2010,
+        "label": "Shot in the chest by the hospital shooter; survives"
+      },
+      {
+        "year": 2016,
+        "label": "Beats Andrew DeLuca nearly to death; faces felony charges and a plea deal"
+      },
+      {
+        "year": 2018,
+        "label": "Named interim Chief of Surgery when Bailey takes leave"
+      },
+      {
+        "year": 2020,
+        "label": "Disappears from Seattle; reveals via letters that he reunited with Izzie and their twins in Kansas"
+      }
+    ]
+  },
+  {
+    "id": "izzie",
+    "name": "Izzie Stevens",
+    "actor": "Katherine Heigl",
+    "role": "Surgical Resident",
+    "firstYear": 2005,
+    "lastYear": 2010,
+    "status": "left",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "Former teen-mom-turned-Mercy-West-intern who put herself through Mount Sinai with underwear modeling. Fell for a patient (Denny Duquette), cut his LVAD wire, and lost him anyway. Diagnosed with Stage IV melanoma in 2008; married Alex Karev from a hospital bed during chemo. Walked away in 2010 after he refused to take her back. Later revealed to be living in Kansas with twins fathered by Alex from frozen embryos.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2008,
+        "label": "Diagnosed with Stage IV melanoma; the tumor has metastasized to her brain"
+      },
+      {
+        "year": 2009,
+        "label": "Marries Alex in a borrowed wedding from a deathbed scene"
+      },
+      {
+        "year": 2010,
+        "label": "Leaves Seattle when Alex refuses to take her back"
+      },
+      {
+        "year": 2020,
+        "label": "Revealed (off-screen) to be a surgical oncologist in Kansas raising her twins with Alex"
+      }
+    ]
+  },
+  {
+    "id": "george",
+    "name": "George O'Malley",
+    "actor": "T.R. Knight",
+    "role": "Surgical Resident",
+    "firstYear": 2005,
+    "lastYear": 2009,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "Bambi. The sweet, stuttering intern with a crush on Meredith who became the unlikely heart of the original group. Failed his intern exam, repeated the year, then enlisted in the Army. Killed in 2009 saving a woman from being hit by a bus; arrived at Seattle Grace as 'John Doe' so disfigured no one recognized him until he traced '007' on Meredith's palm.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "Begins his intern year alongside Meredith, Cristina, Izzie, and Alex"
+      },
+      {
+        "year": 2007,
+        "label": "Fails his intern exam and has to repeat the year"
+      },
+      {
+        "year": 2009,
+        "label": "Enlists in the U.S. Army as a trauma surgeon"
+      },
+      {
+        "year": 2009,
+        "label": "Killed pushing a woman out of the path of a bus; identified as 'John Doe' only when he traces '007' into Meredith's hand"
+      }
+    ]
+  },
+  {
+    "id": "bailey",
+    "name": "Miranda Bailey",
+    "actor": "Chandra Wilson",
+    "role": "General Surgeon \u2192 Chief of Surgery",
+    "firstYear": 2005,
+    "lastYear": null,
+    "status": "alive",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "The Nazi (her interns' name, not hers). The institutional spine of Grey Sloan. Tough, terrifying, tender \u2014 she's been the residents' mom and the show's moral compass for two decades. Twice-married (Tucker, then Ben), mother of Tuck Jr. and William; survived a heart attack in 2018, an OCD diagnosis the same year, and the death of basically everyone she trained.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Gives birth to Tuck during the ferry boat crisis while Tucker is in critical surgery"
+      },
+      {
+        "year": 2010,
+        "label": "Named general surgery chief; later promoted up the chain"
+      },
+      {
+        "year": 2015,
+        "label": "Named Chief of Surgery, replacing Owen Hunt"
+      },
+      {
+        "year": 2018,
+        "label": "Suffers a heart attack at a rival hospital that initially dismisses her symptoms"
+      },
+      {
+        "year": 2018,
+        "label": "Diagnosed with OCD"
+      },
+      {
+        "year": 2023,
+        "label": "Threatens to quit and reboot the residency program after the program is suspended"
+      }
+    ]
+  },
+  {
+    "id": "webber",
+    "name": "Richard Webber",
+    "actor": "James Pickens Jr.",
+    "role": "Chief of Surgery \u2192 General Surgery Attending \u2192 Director of Residency",
+    "firstYear": 2005,
+    "lastYear": null,
+    "status": "alive",
+    "era": "originals",
+    "importance": "lead",
+    "bio": "The institutional father of Grey Sloan. Mentored Ellis Grey (and slept with her), then mentored her daughter. Recovering alcoholic \u2014 relapsed memorably in 2015 and again in 2020. Widowed when Adele died in 2013; later married Catherine Avery. Survived a near-fatal electrocution in 2018 and a misdiagnosed Parkinson's-then-cobalt-poisoning storyline in 2019.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2009,
+        "label": "Falls off the wagon after Adele finds out about Ellis; goes to AA"
+      },
+      {
+        "year": 2013,
+        "label": "Adele dies of complications from Alzheimer's after Bailey's surgery"
+      },
+      {
+        "year": 2018,
+        "label": "Electrocuted in surgery; nearly dies"
+      },
+      {
+        "year": 2019,
+        "label": "Misdiagnosed with Parkinson's; the cause is cobalt poisoning from a hip replacement"
+      }
+    ]
+  },
+  {
+    "id": "burke",
+    "name": "Preston Burke",
+    "actor": "Isaiah Washington",
+    "role": "Head of Cardiothoracic Surgery",
+    "firstYear": 2005,
+    "lastYear": 2007,
+    "status": "left",
+    "era": "originals",
+    "importance": "main",
+    "bio": "Cardio prodigy. Cristina's mentor and fianc\u00e9. Shot by a bystander in S2 \u2014 the nerve damage threatened to end his career. Left Cristina at the altar in 2007 and vanished from the show. Returned briefly in 2014 to hand over his Zurich research institute to Cristina.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2006,
+        "label": "Shot by a man searching for his missing wife; suffers nerve damage in his hand"
+      },
+      {
+        "year": 2007,
+        "label": "Leaves Cristina at the altar in their over-the-top wedding"
+      },
+      {
+        "year": 2014,
+        "label": "Returns to offer Cristina his Zurich institute"
+      }
+    ]
+  },
+  {
+    "id": "addison",
+    "name": "Addison Montgomery",
+    "actor": "Kate Walsh",
+    "role": "Head of Neonatal Surgery / OB-GYN / Reproductive Endocrinology",
+    "firstYear": 2005,
+    "lastYear": null,
+    "status": "left",
+    "era": "originals",
+    "importance": "main",
+    "bio": "Walked into the S1 finale as 'the wife you didn't mention,' walked out of the show in 2007 to launch her own (Private Practice). World-class neonatal and fetal surgeon. Returned to Grey Sloan as a recurring guest from 2021 onward \u2014 first to help Meredith's research, then to fight an abortion-rights storyline.",
+    "note": "Left Grey's Anatomy in 2007 as the lead of the spin-off Private Practice (which ran 2007\u20132013). Returned to Grey's as a recurring guest from S18 onward.",
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "Arrives at Seattle Grace as Derek's still-married wife"
+      },
+      {
+        "year": 2007,
+        "label": "Moves to Los Angeles to join Oceanside Wellness"
+      },
+      {
+        "year": 2021,
+        "label": "Returns to Grey Sloan to consult on Meredith's research"
+      }
+    ]
+  },
+  {
+    "id": "mark",
+    "name": "Mark Sloan",
+    "actor": "Eric Dane",
+    "role": "Head of Plastic Surgery",
+    "firstYear": 2006,
+    "lastYear": 2012,
+    "status": "deceased",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "McSteamy. Manhattan plastic surgeon who slept with his best friend's wife (Addison) and then followed him to Seattle. Co-parented Sofia with Callie and Arizona. Loved Lexie Grey almost from the start and finally got to say so seconds before she died in the plane crash. Survived the crash himself, briefly came back from the brink, then died days later.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2006,
+        "label": "Arrives in Seattle following Addison"
+      },
+      {
+        "year": 2010,
+        "label": "Discovers he has a teenage daughter, Sloan Riley"
+      },
+      {
+        "year": 2011,
+        "label": "Co-parents Sofia Robbin Sloan Torres with Callie and Arizona"
+      },
+      {
+        "year": 2012,
+        "label": "Survives the plane crash with critical injuries"
+      },
+      {
+        "year": 2012,
+        "label": "Dies thirty days later after a brief, false recovery"
+      }
+    ]
+  },
+  {
+    "id": "callie",
+    "name": "Callie Torres",
+    "actor": "Sara Ramirez",
+    "role": "Head of Orthopedic Surgery",
+    "firstYear": 2006,
+    "lastYear": 2016,
+    "status": "left",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Daughter of a wealthy Catholic Cuban-American family. Orthopedic surgeon, briefly Chief Resident's pet project, then department head. Married George O'Malley (brief, doomed). Came out as bisexual via Erica Hahn, then fell in love with Arizona Robbins; they married, had Sofia, divorced. Left Seattle in 2016 for New York with Penny Blake.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2008,
+        "label": "Comes out via her relationship with Erica Hahn"
+      },
+      {
+        "year": 2010,
+        "label": "Estranged from her Catholic father after coming out as bisexual"
+      },
+      {
+        "year": 2011,
+        "label": "Nearly dies in a car crash; Sofia born premature in emergency surgery"
+      },
+      {
+        "year": 2016,
+        "label": "Moves to New York with Penny Blake; takes Sofia after a brutal custody fight"
+      }
+    ]
+  },
+  {
+    "id": "arizona",
+    "name": "Arizona Robbins",
+    "actor": "Jessica Capshaw",
+    "role": "Head of Pediatric Surgery / Fetal Surgery",
+    "firstYear": 2009,
+    "lastYear": 2018,
+    "status": "left",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Named after the battleship her father served on (her brother was Tim). Pediatric surgery prodigy with a perky exterior and a steel-spined center. Married Callie, had Sofia, lost her leg in the plane crash, had an affair, watched her marriage end. Trained in fetal surgery under Nicole Herman. Left Grey Sloan in 2018 to move to New York and be close to Sofia.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "Targeted by the hospital shooter; ducks into a bathroom and survives"
+      },
+      {
+        "year": 2012,
+        "label": "Plane crash; left leg amputated above the knee against her wishes"
+      },
+      {
+        "year": 2015,
+        "label": "Becomes a board-certified fetal surgeon after training under Nicole Herman"
+      },
+      {
+        "year": 2018,
+        "label": "Leaves for New York to be near Sofia after Callie wins custody"
+      }
+    ]
+  },
+  {
+    "id": "lexie",
+    "name": "Lexie Grey",
+    "actor": "Chyler Leigh",
+    "role": "Surgical Resident",
+    "firstYear": 2007,
+    "lastYear": 2012,
+    "status": "deceased",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Meredith's half-sister, Thatcher and Susan's daughter. Photographic memory, painful earnestness, and an unrequited and then very-requited love story with Mark Sloan. Killed in the plane crash in 2012, pinned beneath wreckage, holding Mark's hand while he finally told her 'meant to be.'",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Susan, her mother, dies; her father Thatcher relapses"
+      },
+      {
+        "year": 2008,
+        "label": "Joins Seattle Grace as an intern and meets Meredith for the first time"
+      },
+      {
+        "year": 2010,
+        "label": "Talks down the hospital shooter and survives"
+      },
+      {
+        "year": 2012,
+        "label": "Killed in the plane crash; Mark says 'meant to be' as she dies"
+      }
+    ]
+  },
+  {
+    "id": "jackson",
+    "name": "Jackson Avery",
+    "actor": "Jesse Williams",
+    "role": "Head of Plastic Surgery",
+    "firstYear": 2010,
+    "lastYear": 2021,
+    "status": "left",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Grandson of Harper Avery (the surgical award namesake), son of Catherine Fox \u2014 wealth and surgical royalty he tried very hard not to use. Plastic surgeon, briefly Chief of Plastics, Board chair after the Foundation bought Grey Sloan. Married April Kepner (then divorced); fathered Harriet. Left in 2021 to run the Foundation from Boston with Jackson's daughter and the (eventually re-coupled) April.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "Transfers to Seattle Grace from Mercy West in the hospital merger"
+      },
+      {
+        "year": 2012,
+        "label": "Plane crash; one of the few uninjured"
+      },
+      {
+        "year": 2014,
+        "label": "Father Robert Avery reappears in Jackson's life briefly"
+      },
+      {
+        "year": 2017,
+        "label": "Wins the Harper Avery Award (it's then renamed in his late grandfather's place)"
+      },
+      {
+        "year": 2021,
+        "label": "Moves to Boston to run the Catherine Fox Foundation"
+      }
+    ]
+  },
+  {
+    "id": "april",
+    "name": "April Kepner",
+    "actor": "Sarah Drew",
+    "role": "Trauma Surgeon",
+    "firstYear": 2010,
+    "lastYear": 2018,
+    "status": "left",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Devout evangelical farm girl from Ohio who joined from Mercy West and became Grey Sloan's trauma surgeon. Twice-married to Jackson (once jilted Matthew Taylor at the altar to elope); mother of Harriet (and Samuel, who was born with skeletal dysplasia and lived only hours). Lost and re-found her faith in 2017. Left Grey Sloan in 2018 to do trauma work in the field and remarry Matthew.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "Transfers from Mercy West in the merger"
+      },
+      {
+        "year": 2010,
+        "label": "Survives the hospital shooting; watches Reed Adamson die in front of her"
+      },
+      {
+        "year": 2015,
+        "label": "Gives birth to son Samuel, who lives only hours due to osteogenesis imperfecta"
+      },
+      {
+        "year": 2017,
+        "label": "Loses her faith after a series of patient losses; restored later in the season"
+      },
+      {
+        "year": 2018,
+        "label": "Leaves Grey Sloan for trauma fieldwork; re-marries Matthew Taylor"
+      }
+    ]
+  },
+  {
+    "id": "owen",
+    "name": "Owen Hunt",
+    "actor": "Kevin McKidd",
+    "role": "Head of Trauma \u2192 Chief of Surgery",
+    "firstYear": 2008,
+    "lastYear": 2026,
+    "status": "left",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Iraq-war army trauma surgeon with severe PTSD. Briefly tried to strangle Cristina in his sleep; spent the next decade trying to be worthy of someone. Two failed marriages to Cristina and Amelia. Long-time on-and-off relationship with Teddy that finally landed. Sister Megan presumed dead in Iraq for ten years, then alive. Two kids with Teddy (Leo adopted, Allison biological). Left Grey Sloan in 2026 with Teddy and the kids for her new job in Paris.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2008,
+        "label": "Arrives in Seattle from Iraq; severe PTSD"
+      },
+      {
+        "year": 2014,
+        "label": "Reunites with sister Megan after she had been presumed dead for a decade"
+      },
+      {
+        "year": 2019,
+        "label": "Adopts Leo (formerly Bailey-Jr.-of-Betty)"
+      },
+      {
+        "year": 2019,
+        "label": "Survives a helicopter crash and a near-amputation"
+      },
+      {
+        "year": 2026,
+        "label": "Single-handedly rescues the Greene family \u2014 Sam, Josh, Hank, and Laney \u2014 from a collapsing Seattle bridge, performing a field cricothyrotomy and a field amputation"
+      },
+      {
+        "year": 2026,
+        "label": "Leaves Grey Sloan for Paris with Teddy and their kids"
+      }
+    ]
+  },
+  {
+    "id": "teddy",
+    "name": "Teddy Altman",
+    "actor": "Kim Raver",
+    "role": "Head of Cardiothoracic Surgery \u2192 Chief of Surgery",
+    "firstYear": 2009,
+    "lastYear": 2026,
+    "status": "left",
+    "era": "mid",
+    "importance": "lead",
+    "bio": "Army cardiothoracic surgeon who served with Owen in Iraq and had loved him since. Married a patient (Henry Burton) so he could get insurance \u2014 and then fell in love with him; lost him on the table. Took a five-year hiatus; returned in 2018 pregnant with Owen's daughter, Allison. Became Chief of Surgery in 2019. Left Grey Sloan in 2026 for a job opportunity in Paris, with Owen and the kids in tow.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2009,
+        "label": "Arrives at Seattle Grace as the new head of cardio at Owen's request"
+      },
+      {
+        "year": 2012,
+        "label": "Henry Burton dies on her operating table; she leaves Seattle"
+      },
+      {
+        "year": 2019,
+        "label": "Gives birth to Allison Hunt on the bathroom floor of a hotel room"
+      },
+      {
+        "year": 2019,
+        "label": "Named Chief of Surgery"
+      },
+      {
+        "year": 2024,
+        "label": "Suffers a heart attack; later resigns as Chief after the hospital fire scandal"
+      },
+      {
+        "year": 2026,
+        "label": "Activates Grey Sloan's full disaster response after the Royer Bridge collapse \u2014 and learns Owen was on it"
+      },
+      {
+        "year": 2026,
+        "label": "Takes a cardiothoracic position in Paris; leaves Grey Sloan with Owen and the kids"
+      }
+    ]
+  },
+  {
+    "id": "catherine",
+    "name": "Catherine Fox",
+    "actor": "Debbie Allen",
+    "role": "Urologist / Board Chair of the Catherine Fox Foundation",
+    "firstYear": 2010,
+    "lastYear": null,
+    "status": "alive",
+    "era": "mid",
+    "importance": "main",
+    "bio": "Renowned urologist, daughter-in-law of Harper Avery, mother of Jackson, and (eventually) wife of Richard Webber. Owns Grey Sloan via the Foundation she renamed after herself in 2018. Survived a rare chordoma cancer in 2020. Often the show's vehicle for institutional politics and Black-feminist commentary.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "First introduced as an attending consult; mother of Jackson"
+      },
+      {
+        "year": 2014,
+        "label": "Marries Richard Webber"
+      },
+      {
+        "year": 2018,
+        "label": "Renames the Harper Avery Foundation the 'Catherine Fox Foundation' after the sexual-harassment scandal"
+      },
+      {
+        "year": 2020,
+        "label": "Diagnosed with chordoma; undergoes surgery; survives"
+      }
+    ]
+  },
+  {
+    "id": "ben",
+    "name": "Ben Warren",
+    "actor": "Jason George",
+    "role": "Anesthesiologist \u2192 Surgical Resident \u2192 Firefighter (Station 19) \u2192 Surgical Attending",
+    "firstYear": 2010,
+    "lastYear": null,
+    "status": "alive",
+    "era": "mid",
+    "importance": "main",
+    "bio": "Started as an anesthesiologist Bailey was dating, restarted as a surgical resident (with Bailey as his boss), then quit medicine for the Seattle Fire Department's Station 19. Married Bailey. Stepfather to Tuck, father to William. Returned to Grey Sloan as a surgical attending after Station 19 wrapped.",
+    "note": "Crossed over to lead Station 19 (2018\u20132024); returned to Grey's Anatomy as a main cast member when Station 19 ended.",
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "First appears as the anesthesiologist Bailey starts dating"
+      },
+      {
+        "year": 2013,
+        "label": "Quits anesthesia to restart as a surgical resident under his own wife"
+      },
+      {
+        "year": 2018,
+        "label": "Leaves surgery to become a firefighter at Station 19"
+      },
+      {
+        "year": 2024,
+        "label": "Returns to Grey Sloan as a surgical attending"
+      }
+    ]
+  },
+  {
+    "id": "amelia",
+    "name": "Amelia Shepherd",
+    "actor": "Caterina Scorsone",
+    "role": "Head of Neurosurgery",
+    "firstYear": 2014,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "lead",
+    "bio": "Derek's youngest sister. Recovering addict (heroin, opioids, alcohol) who watched her father die when she was five. Took over Derek's department after he died. Carried a baby with anencephaly to term so the organs could be donated (2014). Married Owen Hunt (divorced). Has a son Scout with Link. Discovered in 2017 that a massive 'brain tumor' was the source of years of bad decisions; survived its removal.",
+    "note": "Originally introduced on Private Practice (2011\u20132013) before joining Grey's full-time in 2014.",
+    "soloEvents": [
+      {
+        "year": 2014,
+        "label": "Carries a baby with anencephaly to term to donate his organs; names him Christopher"
+      },
+      {
+        "year": 2015,
+        "label": "Takes over Derek's neurosurgery department after his death"
+      },
+      {
+        "year": 2017,
+        "label": "Diagnosed with a 10-cm meningioma; survives its removal"
+      },
+      {
+        "year": 2019,
+        "label": "Gives birth to son Scout, fathered by Link"
+      },
+      {
+        "year": 2026,
+        "label": "Tangled in a brief affair with plastic surgeon Toni Wright; ends when Toni catches Amelia entertaining trauma surgeon Cass Beckman"
+      }
+    ]
+  },
+  {
+    "id": "maggie",
+    "name": "Maggie Pierce",
+    "actor": "Kelly McCreary",
+    "role": "Head of Cardiothoracic Surgery",
+    "firstYear": 2014,
+    "lastYear": 2023,
+    "status": "left",
+    "era": "modern",
+    "importance": "lead",
+    "bio": "Cardio prodigy who arrived at Grey Sloan in 2014 to discover she was Ellis Grey and Richard Webber's biological daughter \u2014 making her Meredith's half-sister. Quietly steady through years of chaos. Married Winston Ndugu in 2021; divorced him in 2023 and moved to Chicago.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2014,
+        "label": "Arrives in Seattle to take over cardio; reveals she's Ellis Grey's biological daughter"
+      },
+      {
+        "year": 2015,
+        "label": "Mother Diane Pierce dies of inflammatory breast cancer"
+      },
+      {
+        "year": 2023,
+        "label": "Divorces Winston and leaves Grey Sloan for Chicago"
+      }
+    ]
+  },
+  {
+    "id": "jo",
+    "name": "Jo Wilson",
+    "actor": "Camilla Luddington",
+    "role": "General Surgery \u2192 OB-GYN / Maternal-Fetal Medicine",
+    "firstYear": 2012,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "lead",
+    "bio": "Born in a Pittsburgh fire-station bathroom (her real name is Brooke Stadler); abandoned, foster-raised, abusive first marriage. Hid out at Seattle Grace under the name 'Jo Wilson.' Married Alex Karev, divorced him by letter when he left for Izzie. Pivoted from general surgery to OB-GYN after the trauma of Karev. Adopted Luna as a single mom; now in a relationship with Link.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2012,
+        "label": "Joins Grey Sloan as an intern using the alias 'Jo Wilson'"
+      },
+      {
+        "year": 2017,
+        "label": "Reveals to Alex that she's still legally married to her abusive first husband, Paul Stadler"
+      },
+      {
+        "year": 2018,
+        "label": "Paul Stadler dies in a hit-and-run; Jo is finally free"
+      },
+      {
+        "year": 2020,
+        "label": "Receives Alex's letters; he leaves her for Izzie"
+      },
+      {
+        "year": 2021,
+        "label": "Switches her residency from general surgery to OB-GYN"
+      },
+      {
+        "year": 2022,
+        "label": "Adopts Luna as a single mom"
+      }
+    ]
+  },
+  {
+    "id": "stephanie",
+    "name": "Stephanie Edwards",
+    "actor": "Jerrika Hinton",
+    "role": "Surgical Resident",
+    "firstYear": 2012,
+    "lastYear": 2017,
+    "status": "left",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Smart, driven resident of the post-original generation. Born with sickle cell anemia, which she'd hidden most of her life. Briefly dated Jackson; left at the (literal) altar of someone else's wedding. Walked away from Grey Sloan in 2017 after being severely burned in an explosion caused by a violent patient.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2012,
+        "label": "Joins Grey Sloan as an intern"
+      },
+      {
+        "year": 2017,
+        "label": "Severely burned saving a child during a violent patient's explosion; leaves the hospital to travel"
+      }
+    ]
+  },
+  {
+    "id": "deluca",
+    "name": "Andrew DeLuca",
+    "actor": "Giacomo Gianniotti",
+    "role": "Surgical Resident \u2192 Attending",
+    "firstYear": 2015,
+    "lastYear": 2021,
+    "status": "deceased",
+    "era": "modern",
+    "importance": "lead",
+    "bio": "Italian, charming, son of a brilliant but bipolar surgeon (Vincenzo) and brother to OB Carina. Dated Meredith. Spiraled into a manic episode himself in 2020. Stabbed to death in 2021 on a Seattle train platform after chasing down a human-trafficker.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2015,
+        "label": "Joins Grey Sloan as an intern"
+      },
+      {
+        "year": 2016,
+        "label": "Beaten nearly to death by Alex Karev after Karev finds him in bed with Jo (it wasn't what it looked like)"
+      },
+      {
+        "year": 2020,
+        "label": "Manic episode while uncovering a human-trafficking ring; later diagnosed with bipolar disorder like his father"
+      },
+      {
+        "year": 2021,
+        "label": "Stabbed to death on a train platform by Opal, the trafficker he'd been pursuing"
+      }
+    ]
+  },
+  {
+    "id": "carina",
+    "name": "Carina DeLuca",
+    "actor": "Stefania Spampinato",
+    "role": "OB-GYN / Reproductive Endocrinology",
+    "firstYear": 2017,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Andrew's older sister. OB-GYN/researcher who specialized in studying female orgasm and IVF. Eventually wed firefighter Maya Bishop (Station 19); they have a daughter Liesl. Stayed at Grey Sloan in a recurring capacity after S19 ended.",
+    "note": "Splits time with Station 19, where she's a main cast member and Maya Bishop's wife. Grey's treats her as recurring.",
+    "soloEvents": [
+      {
+        "year": 2017,
+        "label": "Arrives at Grey Sloan from Italy to be with her brother"
+      },
+      {
+        "year": 2021,
+        "label": "Andrew is stabbed to death; Carina is briefly the only DeLuca left in Seattle"
+      }
+    ]
+  },
+  {
+    "id": "link",
+    "name": "Atticus 'Link' Lincoln",
+    "actor": "Chris Carmack",
+    "role": "Head of Orthopedic Surgery",
+    "firstYear": 2018,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Cancer-survivor-turned-orthopedic-surgeon. Sunny, goofy, surprisingly grounded. Long relationship with Amelia (one son, Scout) ended at his attempted proposal; rebounded with Jo Wilson and they had their second-chance baby in 2024.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2018,
+        "label": "Arrives at Grey Sloan from Boston as the new head of ortho"
+      },
+      {
+        "year": 2019,
+        "label": "Welcomes son Scout with Amelia"
+      },
+      {
+        "year": 2021,
+        "label": "Amelia rejects his proposal; they split"
+      },
+      {
+        "year": 2024,
+        "label": "Welcomes son Charlie with Jo Wilson"
+      }
+    ]
+  },
+  {
+    "id": "levi",
+    "name": "Levi Schmitt",
+    "actor": "Jake Borelli",
+    "role": "Surgical Resident",
+    "firstYear": 2017,
+    "lastYear": 2024,
+    "status": "left",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Glasses. The clumsy intern who dropped a phone into a patient's open body cavity (S14), came out to his mother on a freeway in S15, and matured into a real surgeon. Long, complicated relationship with Nico Kim. Briefly left Grey Sloan in 2022 to find himself; returned. Departed for good in 2024.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2017,
+        "label": "Joins Grey Sloan as an intern; nickname 'Glasses' from Meredith sticks"
+      },
+      {
+        "year": 2018,
+        "label": "Comes out to his mother while stuck in highway traffic"
+      },
+      {
+        "year": 2024,
+        "label": "Leaves Grey Sloan permanently"
+      }
+    ]
+  },
+  {
+    "id": "nico",
+    "name": "Nico Kim",
+    "actor": "Alex Landi",
+    "role": "Orthopedic Surgery Fellow",
+    "firstYear": 2018,
+    "lastYear": 2024,
+    "status": "left",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Confident, openly gay ortho fellow who became Levi Schmitt's first relationship. On-again-off-again throughout the late 2010s. Left Grey Sloan in the early 2020s.",
+    "note": null,
+    "soloEvents": []
+  },
+  {
+    "id": "riggs",
+    "name": "Nathan Riggs",
+    "actor": "Martin Henderson",
+    "role": "Cardiothoracic Surgeon",
+    "firstYear": 2016,
+    "lastYear": 2018,
+    "status": "left",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Owen Hunt's former best friend; engaged to Owen's sister Megan in Iraq, where she was presumed killed. Joined Grey Sloan in 2016 with Owen openly hating him. Briefly with Meredith. Left in 2018 to be with the (alive) Megan and their son Farouk in L.A.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2016,
+        "label": "Arrives at Grey Sloan; Owen punches him on sight"
+      },
+      {
+        "year": 2017,
+        "label": "Reunited with Megan, presumed dead for a decade"
+      },
+      {
+        "year": 2018,
+        "label": "Leaves Seattle to raise their son Farouk in Los Angeles with Megan"
+      }
+    ]
+  },
+  {
+    "id": "koracick",
+    "name": "Tom Koracick",
+    "actor": "Greg Germann",
+    "role": "Neurosurgery Attending \u2192 Chief of Surgery (interim)",
+    "firstYear": 2017,
+    "lastYear": 2021,
+    "status": "left",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Derek Shepherd's old neurosurgery mentor. Arrogant, witty, scarred by the death of his young son David from medulloblastoma. Briefly Chief of Surgery during the COVID/Bailey-leave gap. Affair with Teddy that exploded her near-wedding to Owen. Left Grey Sloan in 2021 after losing Jackson's plastics-fellowship buyout drama.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2017,
+        "label": "Brought in to consult on Amelia's brain tumor"
+      },
+      {
+        "year": 2020,
+        "label": "Named interim Chief of Surgery"
+      },
+      {
+        "year": 2021,
+        "label": "Leaves Grey Sloan after Jackson buys him out"
+      }
+    ]
+  },
+  {
+    "id": "hayes",
+    "name": "Cormac Hayes",
+    "actor": "Richard Flood",
+    "role": "Head of Pediatric Surgery",
+    "firstYear": 2019,
+    "lastYear": 2021,
+    "status": "left",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Widower Irish pediatric surgeon with two teenage sons. Briefly flirted with Meredith but never quite landed. Returned to Ireland in 2021 to take a permanent job and raise his boys.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2019,
+        "label": "Arrives at Grey Sloan from Boston via Dublin"
+      },
+      {
+        "year": 2021,
+        "label": "Returns permanently to Ireland with his sons"
+      }
+    ]
+  },
+  {
+    "id": "winston",
+    "name": "Winston Ndugu",
+    "actor": "Anthony Hill",
+    "role": "Cardiothoracic Surgery Fellow \u2192 Attending",
+    "firstYear": 2020,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Sweet, gifted cardio fellow who fell for Maggie Pierce while she was at a conference. Followed her to Seattle. Married her in 2021; divorced her in 2023 after she took a job in Chicago without him. Has a complicated brother (Wendell) who manipulates him.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2020,
+        "label": "Begins long-distance relationship with Maggie over Zoom during COVID"
+      },
+      {
+        "year": 2021,
+        "label": "Marries Maggie at Meredith's house"
+      },
+      {
+        "year": 2023,
+        "label": "Maggie files for divorce after their careers diverge"
+      }
+    ]
+  },
+  {
+    "id": "nick",
+    "name": "Nick Marsh",
+    "actor": "Scott Speedman",
+    "role": "Transplant Surgeon",
+    "firstYear": 2017,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Brilliant Minnesota transplant surgeon who first met Meredith in 2017 as a patient (she saved his life). Re-met her in 2021 when she went to consult; they fell in love. Now her partner \u2014 splits time between Boston, Seattle, and Rochester.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2017,
+        "label": "Operated on by Meredith for a near-fatal blood clot; one-night stand in Minnesota"
+      },
+      {
+        "year": 2021,
+        "label": "Meredith re-meets him when consulting at the Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "id": "simone",
+    "name": "Simone Griffith",
+    "actor": "Alexis Floyd",
+    "role": "Surgical Intern",
+    "firstYear": 2022,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Grew up across the street from Grey Sloan; her grandmother died of a misdiagnosis there. Joined the residency program anyway to fix what felt broken. Engaged to longtime boyfriend Trey, jilted him at the altar for Lucas Adams.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2022,
+        "label": "Joins Grey Sloan as part of the new intern class"
+      },
+      {
+        "year": 2023,
+        "label": "Jilts Trey at the altar to pursue Lucas Adams"
+      }
+    ]
+  },
+  {
+    "id": "lucas",
+    "name": "Lucas Adams",
+    "actor": "Niko Terho",
+    "role": "Surgical Intern",
+    "firstYear": 2022,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Nico's nephew \u2014 Derek and Amelia's youngest sister Kathleen Shepherd's son. A late-bloomer who failed medical school once. Joined Grey Sloan in 2022 with Amelia warily watching. In an on-and-off relationship with Simone Griffith.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2022,
+        "label": "Joins Grey Sloan as an intern under his aunt Amelia's watchful gaze"
+      }
+    ]
+  },
+  {
+    "id": "mika",
+    "name": "Mika Yasuda",
+    "actor": "Midori Francis",
+    "role": "Surgical Intern",
+    "firstYear": 2022,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Wisecracking, financially strapped intern who works second jobs (delivery, etc.) to support her family. Grew close to Levi Schmitt as a confidant.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2022,
+        "label": "Joins Grey Sloan as an intern"
+      }
+    ]
+  },
+  {
+    "id": "blue",
+    "name": "Benson 'Blue' Kwan",
+    "actor": "Harry Shum Jr.",
+    "role": "Surgical Intern",
+    "firstYear": 2022,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Highly competitive intern with a complicated past (a divorced wife, Sloane, who ended up working in the same OR). On-and-off with Jules Millin.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2022,
+        "label": "Joins Grey Sloan as an intern, immediately gunning for top of the class"
+      }
+    ]
+  },
+  {
+    "id": "jules",
+    "name": "Jules Millin",
+    "actor": "Adelaide Kane",
+    "role": "Surgical Intern",
+    "firstYear": 2022,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "main",
+    "bio": "Brash, sharp-tongued intern from a complicated family. On-and-off with Blue Kwan.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2022,
+        "label": "Joins Grey Sloan as an intern"
+      }
+    ]
+  },
+  {
+    "id": "ellis-grey",
+    "name": "Ellis Grey",
+    "actor": "Kate Burton",
+    "role": "General Surgeon (retired)",
+    "firstYear": 2005,
+    "lastYear": 2007,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Twice-winner of the Harper Avery. Meredith's mother. Brilliant, withholding, and dying of early-onset Alzheimer's that frequently lifted to expose how disappointed she was in her daughter. Had a long affair with Richard Webber. Died in 2007 of heart failure, briefly lucid at the end.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2005,
+        "label": "Living in a long-term-care facility with advanced Alzheimer's"
+      },
+      {
+        "year": 2007,
+        "label": "Has a brief 'lucid' window during a code blue; dies of heart failure that same day"
+      }
+    ]
+  },
+  {
+    "id": "thatcher",
+    "name": "Thatcher Grey",
+    "actor": "Jeff Perry",
+    "role": "Civilian (Meredith's father)",
+    "firstYear": 2006,
+    "lastYear": 2018,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Meredith's father, who left Ellis when Meredith was five. Re-married Susan, fathered Lexie and Molly. Alcoholic; Lexie's mother Susan's death sent him into relapse. Reconciled with Lexie and (eventually) Meredith. Died of cancer in 2018.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Susan dies of complications from a hiccup-induced hospitalization; he relapses"
+      },
+      {
+        "year": 2008,
+        "label": "Hits Lexie in a drunken rage at the hospital"
+      },
+      {
+        "year": 2018,
+        "label": "Dies of cancer; Meredith reconciles with him in his final days"
+      }
+    ]
+  },
+  {
+    "id": "susan-grey",
+    "name": "Susan Grey",
+    "actor": "Mare Winningham",
+    "role": "Civilian (Thatcher's wife)",
+    "firstYear": 2006,
+    "lastYear": 2007,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Thatcher's second wife, Lexie and Molly's mother. Warm, motherly, briefly tried to mother Meredith. Died of toxic shock from a chronic hiccup-related hospital admission in 2007 \u2014 a death Thatcher blamed Meredith for.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Dies of TSS during what should have been a routine surgical admission"
+      }
+    ]
+  },
+  {
+    "id": "adele",
+    "name": "Adele Webber",
+    "actor": "Loretta Devine",
+    "role": "Civilian (Richard's wife)",
+    "firstYear": 2005,
+    "lastYear": 2013,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Richard's longtime wife. Knew about his affair with Ellis Grey; forgave him slowly. Diagnosed with early-onset Alzheimer's. Died in 2013 of a heart attack on the same day Bailey successfully performed a brand-new Alzheimer's trial procedure on her.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "Diagnosed with early-onset Alzheimer's"
+      },
+      {
+        "year": 2013,
+        "label": "Dies of cardiac arrest hours after Bailey's groundbreaking surgery"
+      }
+    ]
+  },
+  {
+    "id": "denny",
+    "name": "Denny Duquette",
+    "actor": "Jeffrey Dean Morgan",
+    "role": "Patient (heart transplant)",
+    "firstYear": 2005,
+    "lastYear": 2009,
+    "status": "deceased",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Charming heart-failure patient who waited months at Seattle Grace for a transplant. Fell in love with Izzie. Their plan: she cut his LVAD wire to bump him up the donor list. He got the heart, recovered, proposed \u2014 and died of a stroke hours later. Came back as a vivid hallucination during Izzie's own cancer treatment in S5.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2006,
+        "label": "Receives a heart transplant; proposes to Izzie; dies of a stroke that same evening"
+      },
+      {
+        "year": 2009,
+        "label": "Appears to Izzie as a hallucination during her own cancer treatment"
+      }
+    ]
+  },
+  {
+    "id": "finn",
+    "name": "Finn Dandridge",
+    "actor": "Chris O'Donnell",
+    "role": "Veterinarian",
+    "firstYear": 2006,
+    "lastYear": 2006,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "'McVet.' Meredith's dog's veterinarian. Briefly Derek's rival for Meredith in S2/3. Lost.",
+    "note": null,
+    "soloEvents": []
+  },
+  {
+    "id": "henry",
+    "name": "Henry Burton",
+    "actor": "Scott Foley",
+    "role": "Patient (Von Hippel-Lindau)",
+    "firstYear": 2010,
+    "lastYear": 2012,
+    "status": "deceased",
+    "era": "mid",
+    "importance": "recurring-major",
+    "bio": "Patient Teddy met through Bailey. Married Teddy purely to get insurance for his VHL treatment \u2014 and they fell in love anyway. Died on the table in 2012 during what should have been a routine surgery; Teddy was operating on someone else, told she was working on a different patient until after.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "Marries Teddy to get insurance for his Von Hippel-Lindau syndrome"
+      },
+      {
+        "year": 2012,
+        "label": "Dies during surgery; Cristina is forced to break the news mid-procedure"
+      }
+    ]
+  },
+  {
+    "id": "tucker",
+    "name": "Tucker Jones",
+    "actor": "Cress Williams",
+    "role": "Civilian (Bailey's husband)",
+    "firstYear": 2006,
+    "lastYear": 2010,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Bailey's first husband; father of Tuck Jr. Critically injured in a car accident during the S3 ferry-boat episode. The marriage didn't survive Bailey's career; they divorced amicably in 2010.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Critically injured in a car accident on the same day Tuck is born"
+      },
+      {
+        "year": 2010,
+        "label": "Finalizes divorce from Bailey"
+      }
+    ]
+  },
+  {
+    "id": "eli",
+    "name": "Eli Lloyd",
+    "actor": "Daniel Sunjata",
+    "role": "Nurse",
+    "firstYear": 2010,
+    "lastYear": 2011,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Confident nurse Bailey dated between Tucker and Ben. Pushed Bailey to date him openly despite her hangups about dating a nurse.",
+    "note": null,
+    "soloEvents": []
+  },
+  {
+    "id": "matthew",
+    "name": "Matthew Taylor",
+    "actor": "Justin Bruening",
+    "role": "Paramedic",
+    "firstYear": 2012,
+    "lastYear": 2018,
+    "status": "left",
+    "era": "mid",
+    "importance": "recurring-major",
+    "bio": "Devout, sweet paramedic April Kepner first dated and then jilted at the altar. Married someone else (Karin), widowed her in childbirth in 2018, then reunited with April and moved with her into trauma fieldwork.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2014,
+        "label": "Left at the altar by April, who runs off and marries Jackson"
+      },
+      {
+        "year": 2018,
+        "label": "Wife Karin dies in childbirth; reunites with April"
+      }
+    ]
+  },
+  {
+    "id": "rebecca",
+    "name": "Ava / Rebecca Pope",
+    "actor": "Elizabeth Reaser",
+    "role": "Civilian / Patient",
+    "firstYear": 2007,
+    "lastYear": 2008,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Pulled from the ferry-boat wreckage by Alex, suffering amnesia; he named her 'Ava.' Her real name was Rebecca Pope and she was pregnant and married. Diagnosed with borderline personality disorder; faked a pregnancy with Alex. Last seen being involuntarily committed.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Pulled from the ferry-boat wreckage by Alex with no memory of who she is"
+      },
+      {
+        "year": 2008,
+        "label": "Diagnosed with borderline personality disorder; involuntarily committed"
+      }
+    ]
+  },
+  {
+    "id": "penny",
+    "name": "Penny Blake",
+    "actor": "Samantha Sloyan",
+    "role": "Surgical Resident",
+    "firstYear": 2015,
+    "lastYear": 2016,
+    "status": "left",
+    "era": "mid",
+    "importance": "recurring-major",
+    "bio": "The resident who was treating Derek the night he died \u2014 and who Meredith met months later at Maggie's dinner party not realizing the connection. Callie's girlfriend; moved with her (and Sofia) to New York in 2016.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2015,
+        "label": "Revealed to Meredith as 'the doctor who killed Derek'"
+      },
+      {
+        "year": 2016,
+        "label": "Wins the Preminger Grant and moves with Callie to New York"
+      }
+    ]
+  },
+  {
+    "id": "erica",
+    "name": "Erica Hahn",
+    "actor": "Brooke Smith",
+    "role": "Head of Cardiothoracic Surgery",
+    "firstYear": 2006,
+    "lastYear": 2008,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Took over cardio briefly after Burke. Callie's first relationship with a woman. Walked out of the hospital parking lot in S5 after a confrontation about Izzie's medical conduct and was never seen on screen again.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2008,
+        "label": "Walks out of Seattle Grace after the Denny-Izzie scandal; never returns"
+      }
+    ]
+  },
+  {
+    "id": "megan",
+    "name": "Megan Hunt",
+    "actor": "Abigail Spencer",
+    "role": "Trauma Surgeon (Army)",
+    "firstYear": 2017,
+    "lastYear": 2018,
+    "status": "left",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Owen's sister. Army trauma surgeon, presumed dead in Iraq for ten years after her helicopter went down. Found alive and held captive in 2017. Reunited with her former fianc\u00e9 Riggs in Seattle. Adopted a Syrian war orphan, Farouk; moved with Riggs to L.A. in 2018.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2007,
+        "label": "Helicopter goes down in Iraq; presumed dead"
+      },
+      {
+        "year": 2017,
+        "label": "Found alive after a decade in captivity; brought to Grey Sloan to recover"
+      },
+      {
+        "year": 2018,
+        "label": "Adopts Farouk; moves to LA with Riggs"
+      }
+    ]
+  },
+  {
+    "id": "kai",
+    "name": "Kai Bartley",
+    "actor": "E.R. Fightmaster",
+    "role": "Neuroscience Researcher",
+    "firstYear": 2021,
+    "lastYear": 2022,
+    "status": "left",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Non-binary Parkinson's researcher in Minnesota whom Amelia met (and fell for) on Meredith's research trips. The relationship ended over Amelia's desire for more kids that Kai didn't want.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2021,
+        "label": "Meets Amelia through Meredith's Parkinson's research project"
+      },
+      {
+        "year": 2022,
+        "label": "Breaks up with Amelia over kids"
+      }
+    ]
+  },
+  {
+    "id": "sadie",
+    "name": "Sadie Harris",
+    "actor": "Melissa George",
+    "role": "Surgical Intern",
+    "firstYear": 2008,
+    "lastYear": 2009,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Meredith's wild-child friend from her year off in Europe ('Death'). Joined the new intern class in S5; failed the program and disappeared.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2008,
+        "label": "Joins Seattle Grace's intern class on Meredith's recommendation"
+      },
+      {
+        "year": 2009,
+        "label": "Quits the program after the Chief discovers she lied her way in"
+      }
+    ]
+  },
+  {
+    "id": "sam-bello",
+    "name": "Sam Bello",
+    "actor": "Jeanine Mason",
+    "role": "Surgical Resident",
+    "firstYear": 2017,
+    "lastYear": 2018,
+    "status": "left",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Brilliant DACA-recipient resident DeLuca briefly dated. Forced to flee Seattle in 2018 to avoid deportation; took a fellowship in Switzerland (under, of all people, Cristina Yang).",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2018,
+        "label": "Flees to Switzerland to avoid ICE deportation; takes a fellowship at Cristina Yang's institute"
+      }
+    ]
+  },
+  {
+    "id": "shane",
+    "name": "Shane Ross",
+    "actor": "Gaius Charles",
+    "role": "Surgical Resident",
+    "firstYear": 2012,
+    "lastYear": 2014,
+    "status": "left",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Cristina's chosen prot\u00e9g\u00e9 from the new intern class. Cracked under pressure after his role in Heather's death; came back stronger. Followed Cristina to Zurich.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2013,
+        "label": "Sends Heather Brooks into the basement during the storm, where she's electrocuted"
+      },
+      {
+        "year": 2014,
+        "label": "Follows Cristina to her Zurich institute"
+      }
+    ]
+  },
+  {
+    "id": "heather",
+    "name": "Heather Brooks",
+    "actor": "Tina Majorino",
+    "role": "Surgical Intern",
+    "firstYear": 2012,
+    "lastYear": 2013,
+    "status": "deceased",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Cheerful, eager intern Derek nicknamed 'Mousey.' Electrocuted in a flooded hospital basement during a Seattle superstorm; never regained consciousness.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2013,
+        "label": "Electrocuted in the flooded basement during the superstorm; dies after surgery"
+      }
+    ]
+  },
+  {
+    "id": "carolyn-shepherd",
+    "name": "Carolyn Shepherd",
+    "actor": "Tyne Daly",
+    "role": "Civilian (Derek's mother)",
+    "firstYear": 2014,
+    "lastYear": 2015,
+    "status": "alive",
+    "era": "mid",
+    "importance": "recurring-major",
+    "bio": "Derek and Amelia's mother. Matriarch of five Shepherd siblings. Came to Meredith and Derek's wedding; later returned briefly after Derek's death.",
+    "note": null,
+    "soloEvents": []
+  },
+  {
+    "id": "robert-avery",
+    "name": "Robert Avery",
+    "actor": "Eric Roberts",
+    "role": "Diner owner (Jackson's biological father)",
+    "firstYear": 2014,
+    "lastYear": 2014,
+    "status": "alive",
+    "era": "mid",
+    "importance": "recurring-major",
+    "bio": "Jackson's estranged biological father. Walked out on Catherine when Jackson was young. Jackson found him running a diner in Montana.",
+    "note": null,
+    "soloEvents": []
+  },
+  {
+    "id": "harper-avery",
+    "name": "Harper Avery",
+    "actor": "Chelcie Ross",
+    "role": "Surgeon / Award Namesake",
+    "firstYear": 2013,
+    "lastYear": 2018,
+    "status": "deceased",
+    "era": "mid",
+    "importance": "recurring-major",
+    "bio": "Catherine's father-in-law, Jackson's grandfather. Founder of the Harper Avery Foundation. Posthumously exposed in 2018 as a serial sexual harasser, leading to the Foundation's rebrand as the Catherine Fox Foundation.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2018,
+        "label": "Posthumously revealed as a serial sexual harasser; the Foundation he founded is renamed"
+      }
+    ]
+  },
+  {
+    "id": "sloan-riley",
+    "name": "Sloan Riley",
+    "actor": "Leven Rambin",
+    "role": "Civilian (Mark's daughter)",
+    "firstYear": 2009,
+    "lastYear": 2010,
+    "status": "left",
+    "era": "originals",
+    "importance": "recurring-major",
+    "bio": "Mark Sloan's teenage daughter from a high-school relationship. Showed up pregnant on his doorstep in S6. Stayed with Mark and Lexie briefly; gave the baby up for adoption; left.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2010,
+        "label": "Gives birth to a son; gives him up for adoption and leaves Seattle"
+      }
+    ]
+  },
+  {
+    "id": "kids-grey-shepherd",
+    "name": "Grey-Shepherd Kids",
+    "kind": "kids-group",
+    "firstYear": 2010,
+    "lastYear": null,
+    "status": "alive",
+    "era": "mid",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "Zola Grey-Shepherd",
+        "year": 2010,
+        "note": "Adopted from Malawi as an orphaned NICU patient at Seattle Grace"
+      },
+      {
+        "name": "Bailey Grey-Shepherd",
+        "year": 2013,
+        "note": "Born during a citywide superstorm blackout; named for Miranda Bailey"
+      },
+      {
+        "name": "Ellis Grey-Shepherd",
+        "year": 2014,
+        "note": "Born after Derek's death; named for Meredith's mother"
+      }
+    ]
+  },
+  {
+    "id": "kids-bailey",
+    "name": "Bailey's Kids",
+    "kind": "kids-group",
+    "firstYear": 2007,
+    "lastYear": null,
+    "status": "alive",
+    "era": "mid",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "William 'Tuck' Jones Jr.",
+        "year": 2007,
+        "note": "Born to Miranda Bailey and Tucker Jones during the ferry-boat crisis"
+      },
+      {
+        "name": "William George Bailey Jones",
+        "year": 2016,
+        "note": "Bailey and Ben's son, named for William Bailey and George O'Malley"
+      }
+    ]
+  },
+  {
+    "id": "kids-jo",
+    "name": "Jo's Kids",
+    "kind": "kids-group",
+    "firstYear": 2022,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "Luna Wilson",
+        "year": 2022,
+        "note": "Adopted by Jo as a single mom from a NICU patient whose mother died"
+      },
+      {
+        "name": "Charlie Wilson-Lincoln",
+        "year": 2024,
+        "note": "Jo and Link's son"
+      }
+    ]
+  },
+  {
+    "id": "kids-owen-teddy",
+    "name": "Owen's Kids",
+    "kind": "kids-group",
+    "firstYear": 2018,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "Leo Hunt",
+        "year": 2018,
+        "note": "Adopted by Owen and Amelia (originally Owen and Betty); raised by Owen and Teddy"
+      },
+      {
+        "name": "Allison 'Pip' Hunt",
+        "year": 2019,
+        "note": "Born to Owen and Teddy on a hotel bathroom floor"
+      }
+    ]
+  },
+  {
+    "id": "harriet",
+    "name": "Harriet Kepner-Avery",
+    "kind": "kids-group",
+    "firstYear": 2017,
+    "lastYear": null,
+    "status": "alive",
+    "era": "mid",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "Harriet Kepner-Avery",
+        "year": 2017,
+        "note": "Born to April and Jackson during a Pacific Northwest storm"
+      }
+    ]
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia Robbin Sloan Torres",
+    "kind": "kids-group",
+    "firstYear": 2011,
+    "lastYear": null,
+    "status": "alive",
+    "era": "mid",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "Sofia Robbin Sloan Torres",
+        "year": 2011,
+        "note": "Born to Callie via emergency C-section after a car crash; biological father Mark Sloan; co-parented by Arizona Robbins"
+      }
+    ]
+  },
+  {
+    "id": "scout",
+    "name": "Scout Lincoln-Shepherd",
+    "kind": "kids-group",
+    "firstYear": 2019,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "kids",
+    "members": [
+      {
+        "name": "Scout Derek Shepherd Lincoln",
+        "year": 2019,
+        "note": "Born to Amelia Shepherd and Link Lincoln"
+      }
+    ]
+  },
+  {
+    "id": "wes",
+    "name": "Wes Bryant",
+    "actor": "Trevor Jackson",
+    "role": "Surgical Intern",
+    "firstYear": 2025,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Eager, irrepressible new intern who joined Grey Sloan in S22. Talked his way into properly dating Simone Griffith by the finale, even though her heart was still tangled up with Lucas Adams.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2025,
+        "label": "Joins Grey Sloan as part of the next intern class"
+      },
+      {
+        "year": 2026,
+        "label": "Asks Simone out 'properly' the night of the bridge collapse"
+      }
+    ]
+  },
+  {
+    "id": "toni",
+    "name": "Toni Wright",
+    "actor": "Jen Landon",
+    "role": "Head of Plastic Surgery",
+    "firstYear": 2025,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Plastic surgeon who joined Grey Sloan in S22 while still married (to Celine, with a young son Zach). Fell into a brief affair with Amelia Shepherd that imploded the night Toni decided to leave her marriage \u2014 only to find Cass Beckman waiting at Amelia's.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2026,
+        "label": "Tells her wife Celine she wants out of their marriage to pursue Amelia"
+      }
+    ]
+  },
+  {
+    "id": "cass",
+    "name": "Cass Beckman",
+    "actor": "Sophia Bush",
+    "role": "Trauma Surgeon (Seattle Presbyterian / Grey Sloan)",
+    "firstYear": 2026,
+    "lastYear": null,
+    "status": "alive",
+    "era": "modern",
+    "importance": "recurring-major",
+    "bio": "Trauma surgeon based at Seattle Presbyterian. Showed up at Grey Sloan during the S22 bridge-collapse mass casualty and stayed in the picture \u2014 including, in the finale, at Amelia Shepherd's apartment.",
+    "note": null,
+    "soloEvents": [
+      {
+        "year": 2026,
+        "label": "Stranded at Grey Sloan during the Royer Bridge collapse; works the trauma bay alongside the staff"
+      }
+    ]
+  }
+]
