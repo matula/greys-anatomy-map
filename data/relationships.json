@@ -2373,7 +2373,7 @@
     "to": "cass",
     "type": "romantic-brief",
     "label": "Just starting",
-    "summary": "Amelia's new direction after the Toni affair imploded \u2014 quietly began with Cass on the same night.",
+    "summary": "The doorway-reveal at the S22 finale: Cass on Amelia's couch the same night Teddy chose Owen and Toni came to commit. Just-started.",
     "startYear": 2026,
     "endYear": null,
     "events": [
@@ -2409,5 +2409,37 @@
     "startYear": 2025,
     "endYear": null,
     "events": []
+  },
+  {
+    "id": "teddy-cass",
+    "from": "teddy",
+    "to": "cass",
+    "type": "romantic-past",
+    "label": "S21\u2013S22 romance \u00b7 Ended",
+    "summary": "The relationship at the center of Teddy's S22 departure arc. Built over months across the open-marriage storyline; ended when Teddy chose Owen and Paris.",
+    "startYear": 2025,
+    "endYear": 2026,
+    "events": [
+      {
+        "year": 2025,
+        "label": "Cass kisses Teddy at a bar after their husbands get paged from dinner; Teddy pulls back"
+      },
+      {
+        "year": 2025,
+        "label": "Cass keeps showing up at Grey Sloan \u2014 heat-wave shift, David's colonoscopy, Bailey's slideshow rescue at a conference \u2014 the flirtation escalates"
+      },
+      {
+        "year": 2025,
+        "label": "Teddy and Owen agree to open their marriage"
+      },
+      {
+        "year": 2025,
+        "label": "Teddy backs out of a hotel-room encounter, then later kisses Cass in her car ('Between Two Lungs')"
+      },
+      {
+        "year": 2026,
+        "label": "Teddy chooses Owen and Paris; Cass moves on, ending up at Amelia's that same night"
+      }
+    ]
   }
 ]

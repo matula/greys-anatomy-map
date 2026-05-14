@@ -1847,14 +1847,18 @@
     "name": "Cass Beckman",
     "actor": "Sophia Bush",
     "role": "Trauma Surgeon (Seattle Presbyterian / Grey Sloan)",
-    "firstYear": 2026,
+    "firstYear": 2025,
     "lastYear": null,
     "status": "alive",
     "era": "modern",
     "importance": "recurring-major",
-    "bio": "Trauma surgeon based at Seattle Presbyterian. Showed up at Grey Sloan during the S22 bridge-collapse mass casualty and stayed in the picture \u2014 including, in the finale, at Amelia Shepherd's apartment.",
+    "bio": "Trauma surgeon at Seattle Presbyterian. Married to David Beckman (also a surgeon) in an open marriage. Got pulled into the Grey Sloan orbit in S21 when a dinner introduction to Owen and Teddy turned into a multi-episode flirtation, then a full romance with Teddy after Owen and Teddy opened their own marriage. By the S22 finale, with Teddy choosing Owen and Paris, Cass had already moved on \u2014 found waiting on Amelia Shepherd's couch the night Toni Wright came to commit.",
     "note": null,
     "soloEvents": [
+      {
+        "year": 2025,
+        "label": "First crosses paths with Owen and Teddy at a dinner where the husbands get paged away ('Night Moves', S21)"
+      },
       {
         "year": 2026,
         "label": "Stranded at Grey Sloan during the Royer Bridge collapse; works the trauma bay alongside the staff"

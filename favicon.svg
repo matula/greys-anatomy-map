@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- background -->
+  <rect width="32" height="32" fill="#0f1419" rx="6"/>
+
+  <!-- typed-color edges, one per relationship category -->
+  <g stroke-linecap="round" stroke-width="1.8" opacity="0.85" fill="none">
+    <line x1="16" y1="16" x2="6"  y2="6"  stroke="#48cae4"/>  <!-- platonic -->
+    <line x1="16" y1="16" x2="26" y2="6"  stroke="#2a9d8f"/>  <!-- family -->
+    <line x1="16" y1="16" x2="6"  y2="26" stroke="#a06cd5"/>  <!-- past romance -->
+    <line x1="16" y1="16" x2="26" y2="26" stroke="#ffd166"/>  <!-- mentor -->
+  </g>
+
+  <!-- satellite nodes -->
+  <circle cx="6"  cy="6"  r="3" fill="#9cc4e8"/>
+  <circle cx="26" cy="6"  r="3" fill="#d4b5e8"/>
+  <circle cx="6"  cy="26" r="3" fill="#f5deb3"/>
+  <circle cx="26" cy="26" r="3" fill="#52b788"/>
+
+  <!-- center (Meredith) -->
+  <circle cx="16" cy="16" r="5.5" fill="#ff5a5f" stroke="#0f1419" stroke-width="1.5"/>
+</svg>
